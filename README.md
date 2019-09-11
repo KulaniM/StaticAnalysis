@@ -5,16 +5,17 @@ This project is based on following existing projects on GitHub.
 2) Java Call Graph project on github: https://github.com/gousiosg/java-callgraph
 3) Java Decompiler project on github: https://github.com/ststeiger/procyon
 
-To use this static analyzer, download the project and set the following values at the 
+To use this static analyzer, download the project and set the following values at the gr.gousiosg.javacg.stat.JCallGraph class.
 
 #### JAR_PATH
 This property requires to decompile the jar using JD-GUI.
 
-JAR_PATH = <absoloute path to the jar>
+JAR_PATH = absoloute path to the jar
 
 #### initClassPath
 The class that uses Security APIs. For example, we included a class that uses Java Cryptography API in the TestHomeScan project.
 
+JAR_PATH = "/home/HomeScanDemo/StaticAnalysis/TestHomeScan/target/testcode-1.jar";
 initClassPath = "simple2/Class.class";
 	
 

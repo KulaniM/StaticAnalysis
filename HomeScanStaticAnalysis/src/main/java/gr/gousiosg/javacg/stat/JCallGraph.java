@@ -61,29 +61,21 @@ public class JCallGraph {
 
 	//////////////////////////////////////////// SETTINGS...//////////////////////////////////////
 	//////////////////////////////////////////// /////////////////////////////////////////////////
-	//////////////// Philips Hue
-	// jarPath ="/home/Automation/Philips_Hue/huelocalsdk.jar";
-	// classPath ="com/philips/lighting/hue/sdk/upnp/PHUpnpManager.class";
-	/////////////////////////////////////////////
 	/////////////// Chromecast
-	 public static final String JAR_PATH =
-	 "/home/HomeScanSpecExtraction/ChromecastCP/classes-dex2jar.jar";
-	 public static final String BASE_CLASS_FOLDER =
-	 "/home/HomeScanSpecExtraction/ChromecastCP/";
-	 public static String initClassPath =
-	 "com/google/android/apps/chromecast/app/n/k.class";
-	 public static String initMethodName = "a(java.lang.String,java.lang.String)";
-	 public static String CURRENT_LOCAL_CLASS_PATH =
-	 "com.google.android.apps.chromecast.app.n.k";
-	 public static String CURRNET_CLASS_NAME = "k";
+	// public static final String JAR_PATH = "/home/HomeScanSpecExtraction/ChromecastCP/classes-dex2jar.jar";
+	// public static final String BASE_CLASS_FOLDER = "/home/HomeScanSpecExtraction/ChromecastCP/";
+	// public static String initClassPath = "com/google/android/apps/chromecast/app/n/k.class";
+	//public static String initMethodName = "a(java.lang.String,java.lang.String)";
+	// public static String CURRENT_LOCAL_CLASS_PATH = "com.google.android.apps.chromecast.app.n.k";
+	// public static String CURRNET_CLASS_NAME = "k";
 	///////////////////////////////////////////
 //	////////////////// TestProject
-//	public static final String JAR_PATH = "/home/HomeScanSpecExtraction/TestHomeScan/target/testcode-1.jar";
-//	public static final String BASE_CLASS_FOLDER = "home/HomeScanSpecExtraction/TestHomeScan/target/classes/";
-//	public static String initClassPath = "simple2/Class.class";
-//	public static String initMethodName = "encrypt(java.lang.String,java.lang.String)";
-//	public static String CURRENT_LOCAL_CLASS_PATH = "simple2.Class";
-//	public static String CURRNET_CLASS_NAME = "Class";
+	public static final String JAR_PATH = "/home/HomeScanSpecExtraction/TestHomeScan/target/testcode-1.jar";
+	public static final String BASE_CLASS_FOLDER = "home/HomeScanSpecExtraction/TestHomeScan/target/classes/";
+	public static String initClassPath = "simple2/Class.class";
+	public static String initMethodName = "encrypt(java.lang.String,java.lang.String)";
+	public static String CURRENT_LOCAL_CLASS_PATH = "simple2.Class";
+	public static String CURRNET_CLASS_NAME = "Class";
 	///////////////////////////////////// ..END..SETTINGS..////////////////////////////////////////
 	///////////////////////////////////////////////////////////////////////////////////////////////
 
