@@ -16,6 +16,7 @@ JAR_PATH = absoloute path to the jar
 The class that uses Security APIs. For example, we included a class that uses Java Cryptography API in the TestHomeScan project.
 
 JAR_PATH = "/home/HomeScanDemo/StaticAnalysis/TestHomeScan/target/testcode-1.jar";
+
 initClassPath = "simple2/Class.class";
 	
 
