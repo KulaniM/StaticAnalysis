@@ -1,0 +1,345 @@
+digraph "sign(java.lang.String,java.lang.String)" {
+ label="sign(java.lang.String,java.lang.String)"
+{
+ node [shape=box]} 
+72 -> 72[label="public static byte[] sign(String data, String myKey) throws java.security.InvalidKeyException, Exception {
+    PKCS8EncodedKeySpec spec = new PKCS8EncodedKeySpec(myKey.getBytes(UTF-8));
+    KeyFactory kf = KeyFactory.getInstance(RSA);
+    Signature rsa = Signature.getInstance(SHA1withRSA);
+    rsa.initSign(kf.generatePrivate(spec));
+    rsa.update(data.getBytes());
+    return rsa.sign();
+} Type is: byte[]"];
+72[label="Node is: public static byte[] sign(String data, String myKey) throws java.security.InvalidKeyException, Exception {
+    PKCS8EncodedKeySpec spec = new PKCS8EncodedKeySpec(myKey.getBytes(UTF-8));
+    KeyFactory kf = KeyFactory.getInstance(RSA);
+    Signature rsa = Signature.getInstance(SHA1withRSA);
+    rsa.initSign(kf.generatePrivate(spec));
+    rsa.update(data.getBytes());
+    return rsa.sign();
+}
+ Primary T is: byte[]
+ Domain T is: method",fontcolor="blue"];
+  72 -> 73[label="sign Type is: NotSpecified"];
+73[label="Node is: sign
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  72 -> 74[label="String data Type is: NotSpecified"];
+74[label="Node is: String data
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  74 -> 75[label="String Type is: NotSpecified"];
+75[label="Node is: String
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  79 -> 80[label="String Type is: NotSpecified"];
+80[label="Node is: String
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  74 -> 77[label="data Type is: String"];
+77[label="Node is: data
+ Primary T is: String
+ Domain T is: NA",fontcolor="blue"];
+  72 -> 78[label="String myKey Type is: NotSpecified"];
+78[label="Node is: String myKey
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  78 -> 79[label="String Type is: NotSpecified"];
+79[label="Node is: String
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  78 -> 81[label="myKey Type is: String"];
+81[label="Node is: myKey
+ Primary T is: String
+ Domain T is: NA",fontcolor="blue"];
+  72 -> 82[label="java.security.InvalidKeyException Type is: NotSpecified"];
+82[label="Node is: java.security.InvalidKeyException
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  82 -> 83[label="java.security Type is: NotSpecified"];
+83[label="Node is: java.security
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  83 -> 84[label="java Type is: NotSpecified"];
+84[label="Node is: java
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  84 -> 85[label="java Type is: NotSpecified"];
+85[label="Node is: java
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  83 -> 86[label="security Type is: NotSpecified"];
+86[label="Node is: security
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  82 -> 87[label="InvalidKeyException Type is: NotSpecified"];
+87[label="Node is: InvalidKeyException
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  72 -> 88[label="Exception Type is: NotSpecified"];
+88[label="Node is: Exception
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  88 -> 89[label="Exception Type is: NotSpecified"];
+89[label="Node is: Exception
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  72 -> 90[label="byte[] Type is: NotSpecified"];
+90[label="Node is: byte[]
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  90 -> 91[label="byte Type is: NotSpecified"];
+91[label="Node is: byte
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  72 -> 92[label="{
+    PKCS8EncodedKeySpec spec = new PKCS8EncodedKeySpec(myKey.getBytes(UTF-8));
+    KeyFactory kf = KeyFactory.getInstance(RSA);
+    Signature rsa = Signature.getInstance(SHA1withRSA);
+    rsa.initSign(kf.generatePrivate(spec));
+    rsa.update(data.getBytes());
+    return rsa.sign();
+} Type is: NotSpecified"];
+92[label="Node is: {
+    PKCS8EncodedKeySpec spec = new PKCS8EncodedKeySpec(myKey.getBytes(UTF-8));
+    KeyFactory kf = KeyFactory.getInstance(RSA);
+    Signature rsa = Signature.getInstance(SHA1withRSA);
+    rsa.initSign(kf.generatePrivate(spec));
+    rsa.update(data.getBytes());
+    return rsa.sign();
+}
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  92 -> 93[label="PKCS8EncodedKeySpec spec = new PKCS8EncodedKeySpec(myKey.getBytes(UTF-8)); Type is: NotSpecified"];
+93[label="Node is: PKCS8EncodedKeySpec spec = new PKCS8EncodedKeySpec(myKey.getBytes(UTF-8));
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  93 -> 94[label="PKCS8EncodedKeySpec spec = new PKCS8EncodedKeySpec(myKey.getBytes(UTF-8)) Type is: java.security.spec.PKCS8EncodedKeySpec"];
+94[label="Node is: PKCS8EncodedKeySpec spec = new PKCS8EncodedKeySpec(myKey.getBytes(UTF-8))
+ Primary T is: java.security.spec.PKCS8EncodedKeySpec
+ Domain T is: NA",fontcolor="blue"];
+  94 -> 95[label="spec = new PKCS8EncodedKeySpec(myKey.getBytes(UTF-8)) Type is: NotSpecified"];
+95[label="Node is: spec = new PKCS8EncodedKeySpec(myKey.getBytes(UTF-8))
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  95 -> 96[label="PKCS8EncodedKeySpec Type is: NotSpecified"];
+96[label="Node is: PKCS8EncodedKeySpec
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  100 -> 101[label="PKCS8EncodedKeySpec Type is: NotSpecified"];
+101[label="Node is: PKCS8EncodedKeySpec
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  95 -> 98[label="spec Type is: PKCS8EncodedKeySpec"];
+98[label="Node is: spec
+ Primary T is: PKCS8EncodedKeySpec
+ Domain T is: NA",fontcolor="blue"];
+  95 -> 99[label="new PKCS8EncodedKeySpec(myKey.getBytes(UTF-8)) Type is: java.security.spec.PKCS8EncodedKeySpec"];
+99[label="Node is: new PKCS8EncodedKeySpec(myKey.getBytes(UTF-8))
+ Primary T is: java.security.spec.PKCS8EncodedKeySpec
+ Domain T is: NA",fontcolor="blue"];
+  99 -> 100[label="PKCS8EncodedKeySpec Type is: NotSpecified"];
+100[label="Node is: PKCS8EncodedKeySpec
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  99 -> 102[label="myKey.getBytes(UTF-8) Type is: byte[]"];
+102[label="Node is: myKey.getBytes(UTF-8)
+ Primary T is: byte[]
+ Domain T is: NA",fontcolor="blue"];
+  102 -> 103[label="myKey Type is: java.lang.String"];
+103[label="Node is: myKey
+ Primary T is: java.lang.String
+ Domain T is: NA",fontcolor="blue"];
+  103 -> 104[label="myKey Type is: String"];
+104[label="Node is: myKey
+ Primary T is: String
+ Domain T is: NA",fontcolor="blue"];
+  102 -> 105[label="getBytes Type is: java.lang.String"];
+105[label="Node is: getBytes
+ Primary T is: java.lang.String
+ Domain T is: NA",fontcolor="blue"];
+  102 -> 106[label="UTF-8 Type is: java.lang.String"];
+106[label="Node is: UTF-8
+ Primary T is: java.lang.String
+ Domain T is: NA",fontcolor="blue"];
+  92 -> 107[label="KeyFactory kf = KeyFactory.getInstance(RSA); Type is: NotSpecified"];
+107[label="Node is: KeyFactory kf = KeyFactory.getInstance(RSA);
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  107 -> 108[label="KeyFactory kf = KeyFactory.getInstance(RSA) Type is: java.security.KeyFactory"];
+108[label="Node is: KeyFactory kf = KeyFactory.getInstance(RSA)
+ Primary T is: java.security.KeyFactory
+ Domain T is: NA",fontcolor="blue"];
+  108 -> 109[label="kf = KeyFactory.getInstance(RSA) Type is: NotSpecified"];
+109[label="Node is: kf = KeyFactory.getInstance(RSA)
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  109 -> 110[label="KeyFactory Type is: NotSpecified"];
+110[label="Node is: KeyFactory
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  110 -> 111[label="KeyFactory Type is: NotSpecified"];
+111[label="Node is: KeyFactory
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  109 -> 112[label="kf Type is: KeyFactory"];
+112[label="Node is: kf
+ Primary T is: KeyFactory
+ Domain T is: NA",fontcolor="blue"];
+  109 -> 113[label="KeyFactory.getInstance(RSA) Type is: java.security.KeyFactory"];
+113[label="Node is: KeyFactory.getInstance(RSA)
+ Primary T is: java.security.KeyFactory
+ Domain T is: NA",fontcolor="blue"];
+  113 -> 114[label="KeyFactory Type is: NotSpecified"];
+114[label="Node is: KeyFactory
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  114 -> 115[label="KeyFactory Type is: NotSpecified"];
+115[label="Node is: KeyFactory
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  113 -> 116[label="getInstance Type is: NotSpecified"];
+116[label="Node is: getInstance
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  113 -> 117[label="RSA Type is: java.lang.String"];
+117[label="Node is: RSA
+ Primary T is: java.lang.String
+ Domain T is: NA",fontcolor="blue"];
+  92 -> 118[label="Signature rsa = Signature.getInstance(SHA1withRSA); Type is: NotSpecified"];
+118[label="Node is: Signature rsa = Signature.getInstance(SHA1withRSA);
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  118 -> 119[label="Signature rsa = Signature.getInstance(SHA1withRSA) Type is: java.security.Signature"];
+119[label="Node is: Signature rsa = Signature.getInstance(SHA1withRSA)
+ Primary T is: java.security.Signature
+ Domain T is: NA",fontcolor="blue"];
+  119 -> 120[label="rsa = Signature.getInstance(SHA1withRSA) Type is: NotSpecified"];
+120[label="Node is: rsa = Signature.getInstance(SHA1withRSA)
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  120 -> 121[label="Signature Type is: NotSpecified"];
+121[label="Node is: Signature
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  121 -> 122[label="Signature Type is: NotSpecified"];
+122[label="Node is: Signature
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  120 -> 123[label="rsa Type is: Signature"];
+123[label="Node is: rsa
+ Primary T is: Signature
+ Domain T is: NA",fontcolor="blue"];
+  120 -> 124[label="Signature.getInstance(SHA1withRSA) Type is: java.security.Signature"];
+124[label="Node is: Signature.getInstance(SHA1withRSA)
+ Primary T is: java.security.Signature
+ Domain T is: NA",fontcolor="blue"];
+  124 -> 125[label="Signature Type is: NotSpecified"];
+125[label="Node is: Signature
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  125 -> 126[label="Signature Type is: NotSpecified"];
+126[label="Node is: Signature
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  124 -> 127[label="getInstance Type is: NotSpecified"];
+127[label="Node is: getInstance
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  124 -> 128[label="SHA1withRSA Type is: java.lang.String"];
+128[label="Node is: SHA1withRSA
+ Primary T is: java.lang.String
+ Domain T is: NA",fontcolor="blue"];
+  92 -> 129[label="rsa.initSign(kf.generatePrivate(spec)); Type is: NotSpecified"];
+129[label="Node is: rsa.initSign(kf.generatePrivate(spec));
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  129 -> 130[label="rsa.initSign(kf.generatePrivate(spec)) Type is: void"];
+130[label="Node is: rsa.initSign(kf.generatePrivate(spec))
+ Primary T is: void
+ Domain T is: sign",fontcolor="blue"];
+  130 -> 131[label="rsa Type is: java.security.Signature"];
+131[label="Node is: rsa
+ Primary T is: java.security.Signature
+ Domain T is: NA",fontcolor="blue"];
+  151 -> 152[label="rsa Type is: Signature"];
+152[label="Node is: rsa
+ Primary T is: Signature
+ Domain T is: NA",fontcolor="blue"];
+  130 -> 133[label="initSign Type is: java.security.Signature"];
+133[label="Node is: initSign
+ Primary T is: java.security.Signature
+ Domain T is: NA",fontcolor="blue"];
+  130 -> 134[label="kf.generatePrivate(spec) Type is: java.security.PrivateKey"];
+134[label="Node is: kf.generatePrivate(spec)
+ Primary T is: java.security.PrivateKey
+ Domain T is: NA",fontcolor="blue"];
+  134 -> 135[label="kf Type is: java.security.KeyFactory"];
+135[label="Node is: kf
+ Primary T is: java.security.KeyFactory
+ Domain T is: NA",fontcolor="blue"];
+  135 -> 136[label="kf Type is: KeyFactory"];
+136[label="Node is: kf
+ Primary T is: KeyFactory
+ Domain T is: NA",fontcolor="blue"];
+  134 -> 137[label="generatePrivate Type is: java.security.KeyFactory"];
+137[label="Node is: generatePrivate
+ Primary T is: java.security.KeyFactory
+ Domain T is: NA",fontcolor="blue"];
+  134 -> 138[label="spec Type is: java.security.spec.PKCS8EncodedKeySpec"];
+138[label="Node is: spec
+ Primary T is: java.security.spec.PKCS8EncodedKeySpec
+ Domain T is: NA",fontcolor="blue"];
+  138 -> 139[label="spec Type is: PKCS8EncodedKeySpec"];
+139[label="Node is: spec
+ Primary T is: PKCS8EncodedKeySpec
+ Domain T is: NA",fontcolor="blue"];
+  92 -> 140[label="rsa.update(data.getBytes()); Type is: NotSpecified"];
+140[label="Node is: rsa.update(data.getBytes());
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  140 -> 141[label="rsa.update(data.getBytes()) Type is: void"];
+141[label="Node is: rsa.update(data.getBytes())
+ Primary T is: void
+ Domain T is: NA",fontcolor="blue"];
+  141 -> 142[label="rsa Type is: java.security.Signature"];
+142[label="Node is: rsa
+ Primary T is: java.security.Signature
+ Domain T is: NA",fontcolor="blue"];
+  141 -> 144[label="update Type is: java.security.Signature"];
+144[label="Node is: update
+ Primary T is: java.security.Signature
+ Domain T is: NA",fontcolor="blue"];
+  141 -> 145[label="data.getBytes() Type is: byte[]"];
+145[label="Node is: data.getBytes()
+ Primary T is: byte[]
+ Domain T is: NA",fontcolor="blue"];
+  145 -> 146[label="data Type is: java.lang.String"];
+146[label="Node is: data
+ Primary T is: java.lang.String
+ Domain T is: NA",fontcolor="blue"];
+  146 -> 147[label="data Type is: String"];
+147[label="Node is: data
+ Primary T is: String
+ Domain T is: NA",fontcolor="blue"];
+  145 -> 148[label="getBytes Type is: java.lang.String"];
+148[label="Node is: getBytes
+ Primary T is: java.lang.String
+ Domain T is: NA",fontcolor="blue"];
+  92 -> null[label="return rsa.sign(); Type is: NotSpecified"];
+null[label="Node is: return rsa.sign();
+ Primary T is: NotSpecified
+ Domain T is: sign",fontcolor="blue"];
+  null -> 150[label="rsa.sign() Type is: byte[]"];
+150[label="Node is: rsa.sign()
+ Primary T is: byte[]
+ Domain T is: sign",fontcolor="blue"];
+  150 -> 151[label="rsa Type is: java.security.Signature"];
+151[label="Node is: rsa
+ Primary T is: java.security.Signature
+ Domain T is: NA",fontcolor="blue"];
+  150 -> 153[label="sign Type is: java.security.Signature"];
+153[label="Node is: sign
+ Primary T is: java.security.Signature
+ Domain T is: NA",fontcolor="blue"];
+  }

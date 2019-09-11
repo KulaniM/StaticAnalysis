@@ -1,0 +1,49 @@
+digraph "b()" {
+ label="b()"
+{
+ node [shape=box]} 
+303 -> 303[label="public final m b() {
+    return this.c;
+} Type is: m"];
+303[label="Node is: public final m b() {
+    return this.c;
+}
+ Primary T is: m
+ Domain T is: method",fontcolor="blue"];
+  303 -> 304[label="b Type is: String"];
+304[label="Node is: b
+ Primary T is: String
+ Domain T is: NA",fontcolor="blue"];
+  303 -> 305[label="m Type is: String"];
+305[label="Node is: m
+ Primary T is: String
+ Domain T is: NA",fontcolor="blue"];
+  305 -> 306[label="m Type is: NotSpecified"];
+306[label="Node is: m
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  303 -> 307[label="{
+    return this.c;
+} Type is: String"];
+307[label="Node is: {
+    return this.c;
+}
+ Primary T is: String
+ Domain T is: NA",fontcolor="blue"];
+  307 -> null[label="return this.c; Type is: NotSpecified"];
+null[label="Node is: return this.c;
+ Primary T is: NotSpecified
+ Domain T is: ",fontcolor="blue"];
+  null -> 309[label="this.c Type is: NotSpecified"];
+309[label="Node is: this.c
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  309 -> 310[label="this Type is: NotSpecified"];
+310[label="Node is: this
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  309 -> 311[label="c Type is: m"];
+311[label="Node is: c
+ Primary T is: m
+ Domain T is: NA",fontcolor="blue"];
+  }

@@ -1,0 +1,493 @@
+digraph "setKey(java.lang.String)" {
+ label="setKey(java.lang.String)"
+{
+ node [shape=box]} 
+249 -> 249[label="public static void setKey(String myKey) {
+    MessageDigest sha = null;
+    try {
+        key = myKey.getBytes(UTF-8);
+        sha = MessageDigest.getInstance(SHA-1);
+        key = sha.digest(key);
+        byte[] hashkey = java.util.Arrays.copyOf(key, 16);
+        secretKey = new SecretKeySpec(hashkey, AES);
+        System.out.println(secretKey.getFormat());
+    } catch (NoSuchAlgorithmException e) {
+        e.printStackTrace();
+    } catch (UnsupportedEncodingException e) {
+        e.printStackTrace();
+    }
+} Type is: void"];
+249[label="Node is: public static void setKey(String myKey) {
+    MessageDigest sha = null;
+    try {
+        key = myKey.getBytes(UTF-8);
+        sha = MessageDigest.getInstance(SHA-1);
+        key = sha.digest(key);
+        byte[] hashkey = java.util.Arrays.copyOf(key, 16);
+        secretKey = new SecretKeySpec(hashkey, AES);
+        System.out.println(secretKey.getFormat());
+    } catch (NoSuchAlgorithmException e) {
+        e.printStackTrace();
+    } catch (UnsupportedEncodingException e) {
+        e.printStackTrace();
+    }
+}
+ Primary T is: void
+ Domain T is: method",fontcolor="blue"];
+  249 -> 250[label="setKey Type is: NotSpecified"];
+250[label="Node is: setKey
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  249 -> 251[label="String myKey Type is: NotSpecified"];
+251[label="Node is: String myKey
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  251 -> 252[label="String Type is: NotSpecified"];
+252[label="Node is: String
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  252 -> 253[label="String Type is: NotSpecified"];
+253[label="Node is: String
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  251 -> 272[label="myKey Type is: java.lang.String"];
+272[label="Node is: myKey
+ Primary T is: java.lang.String
+ Domain T is: secret_key(KEY)",fontcolor="blue"];
+  249 -> 255[label="void Type is: NotSpecified"];
+255[label="Node is: void
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  249 -> 256[label="{
+    MessageDigest sha = null;
+    try {
+        key = myKey.getBytes(UTF-8);
+        sha = MessageDigest.getInstance(SHA-1);
+        key = sha.digest(key);
+        byte[] hashkey = java.util.Arrays.copyOf(key, 16);
+        secretKey = new SecretKeySpec(hashkey, AES);
+        System.out.println(secretKey.getFormat());
+    } catch (NoSuchAlgorithmException e) {
+        e.printStackTrace();
+    } catch (UnsupportedEncodingException e) {
+        e.printStackTrace();
+    }
+} Type is: NotSpecified"];
+256[label="Node is: {
+    MessageDigest sha = null;
+    try {
+        key = myKey.getBytes(UTF-8);
+        sha = MessageDigest.getInstance(SHA-1);
+        key = sha.digest(key);
+        byte[] hashkey = java.util.Arrays.copyOf(key, 16);
+        secretKey = new SecretKeySpec(hashkey, AES);
+        System.out.println(secretKey.getFormat());
+    } catch (NoSuchAlgorithmException e) {
+        e.printStackTrace();
+    } catch (UnsupportedEncodingException e) {
+        e.printStackTrace();
+    }
+}
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  256 -> 257[label="MessageDigest sha = null; Type is: NotSpecified"];
+257[label="Node is: MessageDigest sha = null;
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  257 -> 258[label="MessageDigest sha = null Type is: java.security.MessageDigest"];
+258[label="Node is: MessageDigest sha = null
+ Primary T is: java.security.MessageDigest
+ Domain T is: NA",fontcolor="blue"];
+  258 -> 259[label="sha = null Type is: NotSpecified"];
+259[label="Node is: sha = null
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  259 -> 260[label="MessageDigest Type is: NotSpecified"];
+260[label="Node is: MessageDigest
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  260 -> 261[label="MessageDigest Type is: NotSpecified"];
+261[label="Node is: MessageDigest
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  259 -> 262[label="sha Type is: MessageDigest"];
+262[label="Node is: sha
+ Primary T is: MessageDigest
+ Domain T is: NA",fontcolor="blue"];
+  259 -> 263[label="null Type is: null"];
+263[label="Node is: null
+ Primary T is: null
+ Domain T is: NA",fontcolor="blue"];
+  256 -> 264[label="try {
+    key = myKey.getBytes(UTF-8);
+    sha = MessageDigest.getInstance(SHA-1);
+    key = sha.digest(key);
+    byte[] hashkey = java.util.Arrays.copyOf(key, 16);
+    secretKey = new SecretKeySpec(hashkey, AES);
+    System.out.println(secretKey.getFormat());
+} catch (NoSuchAlgorithmException e) {
+    e.printStackTrace();
+} catch (UnsupportedEncodingException e) {
+    e.printStackTrace();
+} Type is: NotSpecified"];
+264[label="Node is: try {
+    key = myKey.getBytes(UTF-8);
+    sha = MessageDigest.getInstance(SHA-1);
+    key = sha.digest(key);
+    byte[] hashkey = java.util.Arrays.copyOf(key, 16);
+    secretKey = new SecretKeySpec(hashkey, AES);
+    System.out.println(secretKey.getFormat());
+} catch (NoSuchAlgorithmException e) {
+    e.printStackTrace();
+} catch (UnsupportedEncodingException e) {
+    e.printStackTrace();
+}
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  264 -> 265[label="{
+    key = myKey.getBytes(UTF-8);
+    sha = MessageDigest.getInstance(SHA-1);
+    key = sha.digest(key);
+    byte[] hashkey = java.util.Arrays.copyOf(key, 16);
+    secretKey = new SecretKeySpec(hashkey, AES);
+    System.out.println(secretKey.getFormat());
+} Type is: NotSpecified"];
+265[label="Node is: {
+    key = myKey.getBytes(UTF-8);
+    sha = MessageDigest.getInstance(SHA-1);
+    key = sha.digest(key);
+    byte[] hashkey = java.util.Arrays.copyOf(key, 16);
+    secretKey = new SecretKeySpec(hashkey, AES);
+    System.out.println(secretKey.getFormat());
+}
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  265 -> 266[label="key = myKey.getBytes(UTF-8); Type is: NotSpecified"];
+266[label="Node is: key = myKey.getBytes(UTF-8);
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  266 -> 267[label="key = myKey.getBytes(UTF-8) Type is: byte[]"];
+267[label="Node is: key = myKey.getBytes(UTF-8)
+ Primary T is: byte[]
+ Domain T is: NA",fontcolor="blue"];
+  267 -> 308[label="key Type is: byte[]"];
+308[label="Node is: key
+ Primary T is: byte[]
+ Domain T is: secret_key(KEY) -> hash(msg,sha)",fontcolor="blue"];
+  308 -> 309[label="key Type is: NotSpecified"];
+309[label="Node is: key
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  267 -> 270[label="myKey.getBytes(UTF-8) Type is: byte[]"];
+270[label="Node is: myKey.getBytes(UTF-8)
+ Primary T is: byte[]
+ Domain T is: secret_key(KEY) -> hash(msg,sha)",fontcolor="blue"];
+  270 -> 272[label="myKey Type is: java.lang.String"];
+272[label="Node is: myKey
+ Primary T is: java.lang.String
+ Domain T is: secret_key(KEY)",fontcolor="blue"];
+  272 -> 272[label="myKey Type is: java.lang.String"];
+272[label="Node is: myKey
+ Primary T is: java.lang.String
+ Domain T is: secret_key(KEY)",fontcolor="blue"];
+  270 -> 273[label="getBytes Type is: java.lang.String"];
+273[label="Node is: getBytes
+ Primary T is: java.lang.String
+ Domain T is: NA",fontcolor="blue"];
+  270 -> 274[label="UTF-8 Type is: java.lang.String"];
+274[label="Node is: UTF-8
+ Primary T is: java.lang.String
+ Domain T is: NA",fontcolor="blue"];
+  265 -> 275[label="sha = MessageDigest.getInstance(SHA-1); Type is: NotSpecified"];
+275[label="Node is: sha = MessageDigest.getInstance(SHA-1);
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  275 -> 276[label="sha = MessageDigest.getInstance(SHA-1) Type is: java.security.MessageDigest"];
+276[label="Node is: sha = MessageDigest.getInstance(SHA-1)
+ Primary T is: java.security.MessageDigest
+ Domain T is: NA",fontcolor="blue"];
+  276 -> 289[label="sha Type is: java.security.MessageDigest"];
+289[label="Node is: sha
+ Primary T is: java.security.MessageDigest
+ Domain T is: hash",fontcolor="blue"];
+  289 -> 290[label="sha Type is: MessageDigest"];
+290[label="Node is: sha
+ Primary T is: MessageDigest
+ Domain T is: NA",fontcolor="blue"];
+  276 -> 279[label="MessageDigest.getInstance(SHA-1) Type is: java.security.MessageDigest"];
+279[label="Node is: MessageDigest.getInstance(SHA-1)
+ Primary T is: java.security.MessageDigest
+ Domain T is: hash",fontcolor="blue"];
+  279 -> 280[label="MessageDigest Type is: NotSpecified"];
+280[label="Node is: MessageDigest
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  280 -> 281[label="MessageDigest Type is: NotSpecified"];
+281[label="Node is: MessageDigest
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  279 -> 282[label="getInstance Type is: NotSpecified"];
+282[label="Node is: getInstance
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  279 -> 283[label="SHA-1 Type is: java.lang.String"];
+283[label="Node is: SHA-1
+ Primary T is: java.lang.String
+ Domain T is: NA",fontcolor="blue"];
+  265 -> 284[label="key = sha.digest(key); Type is: NotSpecified"];
+284[label="Node is: key = sha.digest(key);
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  284 -> 285[label="key = sha.digest(key) Type is: byte[]"];
+285[label="Node is: key = sha.digest(key)
+ Primary T is: byte[]
+ Domain T is: NA",fontcolor="blue"];
+  285 -> 308[label="key Type is: byte[]"];
+308[label="Node is: key
+ Primary T is: byte[]
+ Domain T is: secret_key(KEY) -> hash(msg,sha)",fontcolor="blue"];
+  285 -> 288[label="sha.digest(key) Type is: byte[]"];
+288[label="Node is: sha.digest(key)
+ Primary T is: byte[]
+ Domain T is: secret_key(KEY) -> hash(msg,sha)",fontcolor="blue"];
+  288 -> 289[label="sha Type is: java.security.MessageDigest"];
+289[label="Node is: sha
+ Primary T is: java.security.MessageDigest
+ Domain T is: hash",fontcolor="blue"];
+  288 -> 291[label="digest Type is: java.security.MessageDigest"];
+291[label="Node is: digest
+ Primary T is: java.security.MessageDigest
+ Domain T is: NA",fontcolor="blue"];
+  288 -> 308[label="key Type is: byte[]"];
+308[label="Node is: key
+ Primary T is: byte[]
+ Domain T is: secret_key(KEY) -> hash(msg,sha)",fontcolor="blue"];
+  265 -> 294[label="byte[] hashkey = java.util.Arrays.copyOf(key, 16); Type is: NotSpecified"];
+294[label="Node is: byte[] hashkey = java.util.Arrays.copyOf(key, 16);
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  294 -> 295[label="byte[] hashkey = java.util.Arrays.copyOf(key, 16) Type is: byte[]"];
+295[label="Node is: byte[] hashkey = java.util.Arrays.copyOf(key, 16)
+ Primary T is: byte[]
+ Domain T is: NA",fontcolor="blue"];
+  295 -> 296[label="hashkey = java.util.Arrays.copyOf(key, 16) Type is: NotSpecified"];
+296[label="Node is: hashkey = java.util.Arrays.copyOf(key, 16)
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  296 -> 297[label="byte[] Type is: NotSpecified"];
+297[label="Node is: byte[]
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  297 -> 298[label="byte Type is: NotSpecified"];
+298[label="Node is: byte
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  296 -> 319[label="hashkey Type is: byte[]"];
+319[label="Node is: hashkey
+ Primary T is: byte[]
+ Domain T is: secret_key(KEY)",fontcolor="blue"];
+  296 -> 300[label="java.util.Arrays.copyOf(key, 16) Type is: byte[]"];
+300[label="Node is: java.util.Arrays.copyOf(key, 16)
+ Primary T is: byte[]
+ Domain T is: secret_key(KEY)",fontcolor="blue"];
+  300 -> 301[label="java.util.Arrays Type is: java.util.Arrays"];
+301[label="Node is: java.util.Arrays
+ Primary T is: java.util.Arrays
+ Domain T is: NA",fontcolor="blue"];
+  301 -> 302[label="java.util Type is: NotSpecified"];
+302[label="Node is: java.util
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  302 -> 303[label="java Type is: NotSpecified"];
+303[label="Node is: java
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  303 -> 304[label="java Type is: NotSpecified"];
+304[label="Node is: java
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  302 -> 305[label="util Type is: NotSpecified"];
+305[label="Node is: util
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  301 -> 306[label="Arrays Type is: NotSpecified"];
+306[label="Node is: Arrays
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  300 -> 307[label="copyOf Type is: java.util.Arrays"];
+307[label="Node is: copyOf
+ Primary T is: java.util.Arrays
+ Domain T is: NA",fontcolor="blue"];
+  300 -> 308[label="key Type is: byte[]"];
+308[label="Node is: key
+ Primary T is: byte[]
+ Domain T is: secret_key(KEY) -> hash(msg,sha)",fontcolor="blue"];
+  300 -> 310[label="16 Type is: int"];
+310[label="Node is: 16
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  265 -> 311[label="secretKey = new SecretKeySpec(hashkey, AES); Type is: NotSpecified"];
+311[label="Node is: secretKey = new SecretKeySpec(hashkey, AES);
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  311 -> 312[label="secretKey = new SecretKeySpec(hashkey, AES) Type is: javax.crypto.spec.SecretKeySpec"];
+312[label="Node is: secretKey = new SecretKeySpec(hashkey, AES)
+ Primary T is: javax.crypto.spec.SecretKeySpec
+ Domain T is: NA",fontcolor="blue"];
+  312 -> 313[label="secretKey Type is: javax.crypto.spec.SecretKeySpec"];
+313[label="Node is: secretKey
+ Primary T is: javax.crypto.spec.SecretKeySpec
+ Domain T is: NA",fontcolor="blue"];
+  329 -> 330[label="secretKey Type is: String"];
+330[label="Node is: secretKey
+ Primary T is: String
+ Domain T is: NA",fontcolor="blue"];
+  312 -> 315[label="new SecretKeySpec(hashkey, AES) Type is: javax.crypto.spec.SecretKeySpec"];
+315[label="Node is: new SecretKeySpec(hashkey, AES)
+ Primary T is: javax.crypto.spec.SecretKeySpec
+ Domain T is: NA",fontcolor="blue"];
+  315 -> 316[label="SecretKeySpec Type is: NotSpecified"];
+316[label="Node is: SecretKeySpec
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  316 -> 317[label="SecretKeySpec Type is: NotSpecified"];
+317[label="Node is: SecretKeySpec
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  315 -> 318[label="hashkey Type is: byte[]"];
+318[label="Node is: hashkey
+ Primary T is: byte[]
+ Domain T is: secret_key(KEY)",fontcolor="blue"];
+  318 -> 319[label="hashkey Type is: byte[]"];
+319[label="Node is: hashkey
+ Primary T is: byte[]
+ Domain T is: secret_key(KEY)",fontcolor="blue"];
+  315 -> 320[label="AES Type is: java.lang.String"];
+320[label="Node is: AES
+ Primary T is: java.lang.String
+ Domain T is: NA",fontcolor="blue"];
+  265 -> 321[label="System.out.println(secretKey.getFormat()); Type is: NotSpecified"];
+321[label="Node is: System.out.println(secretKey.getFormat());
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  321 -> 322[label="System.out.println(secretKey.getFormat()) Type is: void"];
+322[label="Node is: System.out.println(secretKey.getFormat())
+ Primary T is: void
+ Domain T is: NA",fontcolor="blue"];
+  322 -> 323[label="System.out Type is: java.io.PrintStream"];
+323[label="Node is: System.out
+ Primary T is: java.io.PrintStream
+ Domain T is: NA",fontcolor="blue"];
+  323 -> 324[label="System Type is: NotSpecified"];
+324[label="Node is: System
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  324 -> 325[label="System Type is: NotSpecified"];
+325[label="Node is: System
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  323 -> 326[label="out Type is: NotSpecified"];
+326[label="Node is: out
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  322 -> 327[label="println Type is: java.io.PrintStream"];
+327[label="Node is: println
+ Primary T is: java.io.PrintStream
+ Domain T is: NA",fontcolor="blue"];
+  322 -> 328[label="secretKey.getFormat() Type is: java.lang.String"];
+328[label="Node is: secretKey.getFormat()
+ Primary T is: java.lang.String
+ Domain T is: NA",fontcolor="blue"];
+  328 -> 329[label="secretKey Type is: javax.crypto.spec.SecretKeySpec"];
+329[label="Node is: secretKey
+ Primary T is: javax.crypto.spec.SecretKeySpec
+ Domain T is: NA",fontcolor="blue"];
+  328 -> 331[label="getFormat Type is: javax.crypto.spec.SecretKeySpec"];
+331[label="Node is: getFormat
+ Primary T is: javax.crypto.spec.SecretKeySpec
+ Domain T is: NA",fontcolor="blue"];
+  264 -> 332[label=" catch (NoSuchAlgorithmException e) {
+    e.printStackTrace();
+} Type is: NotSpecified"];
+332[label="Node is:  catch (NoSuchAlgorithmException e) {
+    e.printStackTrace();
+}
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  332 -> 333[label="NoSuchAlgorithmException e Type is: NotSpecified"];
+333[label="Node is: NoSuchAlgorithmException e
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  333 -> 334[label="NoSuchAlgorithmException Type is: NotSpecified"];
+334[label="Node is: NoSuchAlgorithmException
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  334 -> 335[label="NoSuchAlgorithmException Type is: NotSpecified"];
+335[label="Node is: NoSuchAlgorithmException
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  333 -> 336[label="e Type is: NotSpecified"];
+336[label="Node is: e
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  332 -> 337[label="{
+    e.printStackTrace();
+} Type is: NotSpecified"];
+337[label="Node is: {
+    e.printStackTrace();
+}
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  348 -> 349[label="e.printStackTrace(); Type is: NotSpecified"];
+349[label="Node is: e.printStackTrace();
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  349 -> 350[label="e.printStackTrace() Type is: void"];
+350[label="Node is: e.printStackTrace()
+ Primary T is: void
+ Domain T is: NA",fontcolor="blue"];
+  350 -> 351[label="e Type is: java.io.UnsupportedEncodingException"];
+351[label="Node is: e
+ Primary T is: java.io.UnsupportedEncodingException
+ Domain T is: NA",fontcolor="blue"];
+  351 -> 352[label="e Type is: NotSpecified"];
+352[label="Node is: e
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  350 -> 353[label="printStackTrace Type is: java.io.UnsupportedEncodingException"];
+353[label="Node is: printStackTrace
+ Primary T is: java.io.UnsupportedEncodingException
+ Domain T is: NA",fontcolor="blue"];
+  264 -> 343[label=" catch (UnsupportedEncodingException e) {
+    e.printStackTrace();
+} Type is: NotSpecified"];
+343[label="Node is:  catch (UnsupportedEncodingException e) {
+    e.printStackTrace();
+}
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  343 -> 344[label="UnsupportedEncodingException e Type is: NotSpecified"];
+344[label="Node is: UnsupportedEncodingException e
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  344 -> 345[label="UnsupportedEncodingException Type is: NotSpecified"];
+345[label="Node is: UnsupportedEncodingException
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  345 -> 346[label="UnsupportedEncodingException Type is: NotSpecified"];
+346[label="Node is: UnsupportedEncodingException
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  344 -> 347[label="e Type is: NotSpecified"];
+347[label="Node is: e
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  343 -> 348[label="{
+    e.printStackTrace();
+} Type is: NotSpecified"];
+348[label="Node is: {
+    e.printStackTrace();
+}
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  }

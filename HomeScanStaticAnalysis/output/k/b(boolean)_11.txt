@@ -1,0 +1,65 @@
+digraph "b(boolean)" {
+ label="b(boolean)"
+{
+ node [shape=box]} 
+341 -> 341[label="public final void b(final boolean b) {
+    this.h = true;
+} Type is: void"];
+341[label="Node is: public final void b(final boolean b) {
+    this.h = true;
+}
+ Primary T is: void
+ Domain T is: method",fontcolor="blue"];
+  341 -> 342[label="b Type is: boolean"];
+342[label="Node is: b
+ Primary T is: boolean
+ Domain T is: NA",fontcolor="blue"];
+  341 -> 343[label="final boolean b Type is: boolean"];
+343[label="Node is: final boolean b
+ Primary T is: boolean
+ Domain T is: NA",fontcolor="blue"];
+  343 -> 344[label="boolean Type is: NotSpecified"];
+344[label="Node is: boolean
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  343 -> 345[label="b Type is: boolean"];
+345[label="Node is: b
+ Primary T is: boolean
+ Domain T is: NA",fontcolor="blue"];
+  341 -> 346[label="void Type is: boolean"];
+346[label="Node is: void
+ Primary T is: boolean
+ Domain T is: NA",fontcolor="blue"];
+  341 -> 347[label="{
+    this.h = true;
+} Type is: boolean"];
+347[label="Node is: {
+    this.h = true;
+}
+ Primary T is: boolean
+ Domain T is: NA",fontcolor="blue"];
+  347 -> 348[label="this.h = true; Type is: NotSpecified"];
+348[label="Node is: this.h = true;
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  348 -> 349[label="this.h = true Type is: NotSpecified"];
+349[label="Node is: this.h = true
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  349 -> 350[label="this.h Type is: NotSpecified"];
+350[label="Node is: this.h
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  350 -> 351[label="this Type is: NotSpecified"];
+351[label="Node is: this
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  350 -> 352[label="h Type is: NotSpecified"];
+352[label="Node is: h
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  349 -> 353[label="true Type is: boolean"];
+353[label="Node is: true
+ Primary T is: boolean
+ Domain T is: NA",fontcolor="blue"];
+  }

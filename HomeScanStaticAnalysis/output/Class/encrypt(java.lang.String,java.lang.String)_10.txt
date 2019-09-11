@@ -1,0 +1,385 @@
+digraph "encrypt(java.lang.String,java.lang.String)" {
+ label="encrypt(java.lang.String,java.lang.String)"
+{
+ node [shape=box]} 
+863 -> 863[label="public static String encrypt(String strToEncrypt, String secret) {
+    try {
+        setKey(secret);
+        Cipher cipher = Cipher.getInstance(AES/ECB/PKCS5Padding);
+        cipher.init(1, secretKey);
+        return java.util.Base64.getEncoder().encodeToString(cipher.doFinal(strToEncrypt.getBytes(UTF-8)));
+    } catch (Exception e) {
+        System.out.println(Error while encrypting:  + e.toString());
+    }
+    return null;
+} Type is: java.lang.String"];
+863[label="Node is: public static String encrypt(String strToEncrypt, String secret) {
+    try {
+        setKey(secret);
+        Cipher cipher = Cipher.getInstance(AES/ECB/PKCS5Padding);
+        cipher.init(1, secretKey);
+        return java.util.Base64.getEncoder().encodeToString(cipher.doFinal(strToEncrypt.getBytes(UTF-8)));
+    } catch (Exception e) {
+        System.out.println(Error while encrypting:  + e.toString());
+    }
+    return null;
+}
+ Primary T is: java.lang.String
+ Domain T is: method",fontcolor="blue"];
+  863 -> 864[label="encrypt Type is: NotSpecified"];
+864[label="Node is: encrypt
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  863 -> 865[label="String strToEncrypt Type is: NotSpecified"];
+865[label="Node is: String strToEncrypt
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  865 -> 866[label="String Type is: NotSpecified"];
+866[label="Node is: String
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  873 -> 874[label="String Type is: NotSpecified"];
+874[label="Node is: String
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  865 -> 919[label="strToEncrypt Type is: java.lang.String"];
+919[label="Node is: strToEncrypt
+ Primary T is: java.lang.String
+ Domain T is: plaintext",fontcolor="blue"];
+  863 -> 869[label="String secret Type is: NotSpecified"];
+869[label="Node is: String secret
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  869 -> 870[label="String Type is: NotSpecified"];
+870[label="Node is: String
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  869 -> 872[label="secret Type is: String"];
+872[label="Node is: secret
+ Primary T is: String
+ Domain T is: secret_key(KEY)",fontcolor="blue"];
+  863 -> 873[label="String Type is: NotSpecified"];
+873[label="Node is: String
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  863 -> 875[label="{
+    try {
+        setKey(secret);
+        Cipher cipher = Cipher.getInstance(AES/ECB/PKCS5Padding);
+        cipher.init(1, secretKey);
+        return java.util.Base64.getEncoder().encodeToString(cipher.doFinal(strToEncrypt.getBytes(UTF-8)));
+    } catch (Exception e) {
+        System.out.println(Error while encrypting:  + e.toString());
+    }
+    return null;
+} Type is: NotSpecified"];
+875[label="Node is: {
+    try {
+        setKey(secret);
+        Cipher cipher = Cipher.getInstance(AES/ECB/PKCS5Padding);
+        cipher.init(1, secretKey);
+        return java.util.Base64.getEncoder().encodeToString(cipher.doFinal(strToEncrypt.getBytes(UTF-8)));
+    } catch (Exception e) {
+        System.out.println(Error while encrypting:  + e.toString());
+    }
+    return null;
+}
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  875 -> 876[label="try {
+    setKey(secret);
+    Cipher cipher = Cipher.getInstance(AES/ECB/PKCS5Padding);
+    cipher.init(1, secretKey);
+    return java.util.Base64.getEncoder().encodeToString(cipher.doFinal(strToEncrypt.getBytes(UTF-8)));
+} catch (Exception e) {
+    System.out.println(Error while encrypting:  + e.toString());
+} Type is: NotSpecified"];
+876[label="Node is: try {
+    setKey(secret);
+    Cipher cipher = Cipher.getInstance(AES/ECB/PKCS5Padding);
+    cipher.init(1, secretKey);
+    return java.util.Base64.getEncoder().encodeToString(cipher.doFinal(strToEncrypt.getBytes(UTF-8)));
+} catch (Exception e) {
+    System.out.println(Error while encrypting:  + e.toString());
+}
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  876 -> 877[label="{
+    setKey(secret);
+    Cipher cipher = Cipher.getInstance(AES/ECB/PKCS5Padding);
+    cipher.init(1, secretKey);
+    return java.util.Base64.getEncoder().encodeToString(cipher.doFinal(strToEncrypt.getBytes(UTF-8)));
+} Type is: NotSpecified"];
+877[label="Node is: {
+    setKey(secret);
+    Cipher cipher = Cipher.getInstance(AES/ECB/PKCS5Padding);
+    cipher.init(1, secretKey);
+    return java.util.Base64.getEncoder().encodeToString(cipher.doFinal(strToEncrypt.getBytes(UTF-8)));
+}
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  877 -> 878[label="setKey(secret); Type is: NotSpecified"];
+878[label="Node is: setKey(secret);
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  878 -> 879[label="setKey(secret) Type is: void"];
+879[label="Node is: setKey(secret)
+ Primary T is: void
+ Domain T is: NA",fontcolor="blue"];
+  879 -> 880[label="setKey Type is: NotSpecified"];
+880[label="Node is: setKey
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  879 -> 881[label="secret Type is: java.lang.String"];
+881[label="Node is: secret
+ Primary T is: java.lang.String
+ Domain T is: secret_key(KEY)",fontcolor="blue"];
+  881 -> 882[label="secret Type is: String"];
+882[label="Node is: secret
+ Primary T is: String
+ Domain T is: secret_key(KEY)",fontcolor="blue"];
+  877 -> 883[label="Cipher cipher = Cipher.getInstance(AES/ECB/PKCS5Padding); Type is: NotSpecified"];
+883[label="Node is: Cipher cipher = Cipher.getInstance(AES/ECB/PKCS5Padding);
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  883 -> 884[label="Cipher cipher = Cipher.getInstance(AES/ECB/PKCS5Padding) Type is: javax.crypto.Cipher"];
+884[label="Node is: Cipher cipher = Cipher.getInstance(AES/ECB/PKCS5Padding)
+ Primary T is: javax.crypto.Cipher
+ Domain T is: NA",fontcolor="blue"];
+  884 -> 885[label="cipher = Cipher.getInstance(AES/ECB/PKCS5Padding) Type is: NotSpecified"];
+885[label="Node is: cipher = Cipher.getInstance(AES/ECB/PKCS5Padding)
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  885 -> 886[label="Cipher Type is: NotSpecified"];
+886[label="Node is: Cipher
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  886 -> 887[label="Cipher Type is: NotSpecified"];
+887[label="Node is: Cipher
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  885 -> 888[label="cipher Type is: Cipher"];
+888[label="Node is: cipher
+ Primary T is: Cipher
+ Domain T is: NA",fontcolor="blue"];
+  885 -> 889[label="Cipher.getInstance(AES/ECB/PKCS5Padding) Type is: javax.crypto.Cipher"];
+889[label="Node is: Cipher.getInstance(AES/ECB/PKCS5Padding)
+ Primary T is: javax.crypto.Cipher
+ Domain T is: symmetric",fontcolor="blue"];
+  889 -> 890[label="Cipher Type is: NotSpecified"];
+890[label="Node is: Cipher
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  890 -> 891[label="Cipher Type is: NotSpecified"];
+891[label="Node is: Cipher
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  889 -> 892[label="getInstance Type is: NotSpecified"];
+892[label="Node is: getInstance
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  889 -> 893[label="AES/ECB/PKCS5Padding Type is: java.lang.String"];
+893[label="Node is: AES/ECB/PKCS5Padding
+ Primary T is: java.lang.String
+ Domain T is: NA",fontcolor="blue"];
+  877 -> 894[label="cipher.init(1, secretKey); Type is: NotSpecified"];
+894[label="Node is: cipher.init(1, secretKey);
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  894 -> 895[label="cipher.init(1, secretKey) Type is: NotSpecified"];
+895[label="Node is: cipher.init(1, secretKey)
+ Primary T is: NotSpecified
+ Domain T is: encryption",fontcolor="blue"];
+  895 -> 914[label="cipher Type is: javax.crypto.Cipher"];
+914[label="Node is: cipher
+ Primary T is: javax.crypto.Cipher
+ Domain T is: symmetric",fontcolor="blue"];
+  914 -> 915[label="cipher Type is: Cipher"];
+915[label="Node is: cipher
+ Primary T is: Cipher
+ Domain T is: NA",fontcolor="blue"];
+  895 -> 898[label="init Type is: javax.crypto.Cipher"];
+898[label="Node is: init
+ Primary T is: javax.crypto.Cipher
+ Domain T is: NA",fontcolor="blue"];
+  895 -> 899[label="1 Type is: int"];
+899[label="Node is: 1
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  895 -> 900[label="secretKey Type is: javax.crypto.spec.SecretKeySpec"];
+900[label="Node is: secretKey
+ Primary T is: javax.crypto.spec.SecretKeySpec
+ Domain T is: NA",fontcolor="blue"];
+  900 -> 901[label="secretKey Type is: String"];
+901[label="Node is: secretKey
+ Primary T is: String
+ Domain T is: NA",fontcolor="blue"];
+  877 -> null[label="return java.util.Base64.getEncoder().encodeToString(cipher.doFinal(strToEncrypt.getBytes(UTF-8))); Type is: NotSpecified"];
+null[label="Node is: return java.util.Base64.getEncoder().encodeToString(cipher.doFinal(strToEncrypt.getBytes(UTF-8)));
+ Primary T is: NotSpecified
+ Domain T is: ciphertext",fontcolor="blue"];
+  null -> 903[label="java.util.Base64.getEncoder().encodeToString(cipher.doFinal(strToEncrypt.getBytes(UTF-8))) Type is: java.lang.String"];
+903[label="Node is: java.util.Base64.getEncoder().encodeToString(cipher.doFinal(strToEncrypt.getBytes(UTF-8)))
+ Primary T is: java.lang.String
+ Domain T is: NA",fontcolor="blue"];
+  903 -> 904[label="java.util.Base64.getEncoder() Type is: java.util.Base64.Encoder"];
+904[label="Node is: java.util.Base64.getEncoder()
+ Primary T is: java.util.Base64.Encoder
+ Domain T is: NA",fontcolor="blue"];
+  904 -> 905[label="java.util.Base64 Type is: java.util.Base64"];
+905[label="Node is: java.util.Base64
+ Primary T is: java.util.Base64
+ Domain T is: NA",fontcolor="blue"];
+  905 -> 906[label="java.util Type is: NotSpecified"];
+906[label="Node is: java.util
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  906 -> 907[label="java Type is: NotSpecified"];
+907[label="Node is: java
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  907 -> 908[label="java Type is: NotSpecified"];
+908[label="Node is: java
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  906 -> 909[label="util Type is: NotSpecified"];
+909[label="Node is: util
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  905 -> 910[label="Base64 Type is: NotSpecified"];
+910[label="Node is: Base64
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  904 -> 911[label="getEncoder Type is: java.util.Base64"];
+911[label="Node is: getEncoder
+ Primary T is: java.util.Base64
+ Domain T is: NA",fontcolor="blue"];
+  903 -> 912[label="encodeToString Type is: java.util.Base64.Encoder"];
+912[label="Node is: encodeToString
+ Primary T is: java.util.Base64.Encoder
+ Domain T is: NA",fontcolor="blue"];
+  903 -> 913[label="cipher.doFinal(strToEncrypt.getBytes(UTF-8)) Type is: byte[]"];
+913[label="Node is: cipher.doFinal(strToEncrypt.getBytes(UTF-8))
+ Primary T is: byte[]
+ Domain T is: ciphertext",fontcolor="blue"];
+  913 -> 914[label="cipher Type is: javax.crypto.Cipher"];
+914[label="Node is: cipher
+ Primary T is: javax.crypto.Cipher
+ Domain T is: symmetric",fontcolor="blue"];
+  913 -> 916[label="doFinal Type is: javax.crypto.Cipher"];
+916[label="Node is: doFinal
+ Primary T is: javax.crypto.Cipher
+ Domain T is: NA",fontcolor="blue"];
+  913 -> 917[label="strToEncrypt.getBytes(UTF-8) Type is: byte[]"];
+917[label="Node is: strToEncrypt.getBytes(UTF-8)
+ Primary T is: byte[]
+ Domain T is: plaintext",fontcolor="blue"];
+  917 -> 919[label="strToEncrypt Type is: java.lang.String"];
+919[label="Node is: strToEncrypt
+ Primary T is: java.lang.String
+ Domain T is: plaintext",fontcolor="blue"];
+  919 -> 919[label="strToEncrypt Type is: java.lang.String"];
+919[label="Node is: strToEncrypt
+ Primary T is: java.lang.String
+ Domain T is: plaintext",fontcolor="blue"];
+  917 -> 920[label="getBytes Type is: java.lang.String"];
+920[label="Node is: getBytes
+ Primary T is: java.lang.String
+ Domain T is: NA",fontcolor="blue"];
+  917 -> 921[label="UTF-8 Type is: java.lang.String"];
+921[label="Node is: UTF-8
+ Primary T is: java.lang.String
+ Domain T is: NA",fontcolor="blue"];
+  876 -> 922[label=" catch (Exception e) {
+    System.out.println(Error while encrypting:  + e.toString());
+} Type is: NotSpecified"];
+922[label="Node is:  catch (Exception e) {
+    System.out.println(Error while encrypting:  + e.toString());
+}
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  922 -> 923[label="Exception e Type is: NotSpecified"];
+923[label="Node is: Exception e
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  923 -> 924[label="Exception Type is: NotSpecified"];
+924[label="Node is: Exception
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  924 -> 925[label="Exception Type is: NotSpecified"];
+925[label="Node is: Exception
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  923 -> 926[label="e Type is: NotSpecified"];
+926[label="Node is: e
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  922 -> 927[label="{
+    System.out.println(Error while encrypting:  + e.toString());
+} Type is: NotSpecified"];
+927[label="Node is: {
+    System.out.println(Error while encrypting:  + e.toString());
+}
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  927 -> 928[label="System.out.println(Error while encrypting:  + e.toString()); Type is: NotSpecified"];
+928[label="Node is: System.out.println(Error while encrypting:  + e.toString());
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  928 -> 929[label="System.out.println(Error while encrypting:  + e.toString()) Type is: void"];
+929[label="Node is: System.out.println(Error while encrypting:  + e.toString())
+ Primary T is: void
+ Domain T is: NA",fontcolor="blue"];
+  929 -> 930[label="System.out Type is: java.io.PrintStream"];
+930[label="Node is: System.out
+ Primary T is: java.io.PrintStream
+ Domain T is: NA",fontcolor="blue"];
+  930 -> 931[label="System Type is: NotSpecified"];
+931[label="Node is: System
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  931 -> 932[label="System Type is: NotSpecified"];
+932[label="Node is: System
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  930 -> 933[label="out Type is: NotSpecified"];
+933[label="Node is: out
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  929 -> 934[label="println Type is: java.io.PrintStream"];
+934[label="Node is: println
+ Primary T is: java.io.PrintStream
+ Domain T is: NA",fontcolor="blue"];
+  929 -> 935[label="Error while encrypting:  + e.toString() Type is: java.lang.String"];
+935[label="Node is: Error while encrypting:  + e.toString()
+ Primary T is: java.lang.String
+ Domain T is: NA",fontcolor="blue"];
+  935 -> 936[label="Error while encrypting:  Type is: java.lang.String"];
+936[label="Node is: Error while encrypting: 
+ Primary T is: java.lang.String
+ Domain T is: NA",fontcolor="blue"];
+  935 -> 937[label="e.toString() Type is: java.lang.String"];
+937[label="Node is: e.toString()
+ Primary T is: java.lang.String
+ Domain T is: NA",fontcolor="blue"];
+  937 -> 938[label="e Type is: java.lang.Exception"];
+938[label="Node is: e
+ Primary T is: java.lang.Exception
+ Domain T is: NA",fontcolor="blue"];
+  938 -> 939[label="e Type is: NotSpecified"];
+939[label="Node is: e
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  937 -> 940[label="toString Type is: java.lang.Exception"];
+940[label="Node is: toString
+ Primary T is: java.lang.Exception
+ Domain T is: NA",fontcolor="blue"];
+  875 -> 941[label="return null; Type is: NotSpecified"];
+941[label="Node is: return null;
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  941 -> 942[label="null Type is: null"];
+942[label="Node is: null
+ Primary T is: null
+ Domain T is: NA",fontcolor="blue"];
+  }

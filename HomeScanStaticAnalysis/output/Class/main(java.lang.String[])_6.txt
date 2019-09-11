@@ -1,0 +1,277 @@
+digraph "main(java.lang.String[])" {
+ label="main(java.lang.String[])"
+{
+ node [shape=box]} 
+509 -> 509[label="public static void main(String[] args) {
+    String secretKey = secret_key_to_encrypt_message;
+    String originalString = secret_message_to_smart_device;
+    String encryptedString = encrypt(originalString, secret_key_to_encrypt_message);
+    String decryptedString = decrypt(encryptedString, secret_key_to_encrypt_message);
+    System.out.println(originalString);
+    System.out.println(encryptedString);
+    System.out.println(decryptedString);
+} Type is: void"];
+509[label="Node is: public static void main(String[] args) {
+    String secretKey = secret_key_to_encrypt_message;
+    String originalString = secret_message_to_smart_device;
+    String encryptedString = encrypt(originalString, secret_key_to_encrypt_message);
+    String decryptedString = decrypt(encryptedString, secret_key_to_encrypt_message);
+    System.out.println(originalString);
+    System.out.println(encryptedString);
+    System.out.println(decryptedString);
+}
+ Primary T is: void
+ Domain T is: method",fontcolor="blue"];
+  509 -> 510[label="main Type is: NotSpecified"];
+510[label="Node is: main
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  509 -> 511[label="String[] args Type is: NotSpecified"];
+511[label="Node is: String[] args
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  511 -> 512[label="String[] Type is: NotSpecified"];
+512[label="Node is: String[]
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  512 -> 513[label="String Type is: NotSpecified"];
+513[label="Node is: String
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  546 -> 547[label="String Type is: NotSpecified"];
+547[label="Node is: String
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  511 -> 515[label="args Type is: String[]"];
+515[label="Node is: args
+ Primary T is: String[]
+ Domain T is: NA",fontcolor="blue"];
+  509 -> 516[label="void Type is: NotSpecified"];
+516[label="Node is: void
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  509 -> 517[label="{
+    String secretKey = secret_key_to_encrypt_message;
+    String originalString = secret_message_to_smart_device;
+    String encryptedString = encrypt(originalString, secret_key_to_encrypt_message);
+    String decryptedString = decrypt(encryptedString, secret_key_to_encrypt_message);
+    System.out.println(originalString);
+    System.out.println(encryptedString);
+    System.out.println(decryptedString);
+} Type is: NotSpecified"];
+517[label="Node is: {
+    String secretKey = secret_key_to_encrypt_message;
+    String originalString = secret_message_to_smart_device;
+    String encryptedString = encrypt(originalString, secret_key_to_encrypt_message);
+    String decryptedString = decrypt(encryptedString, secret_key_to_encrypt_message);
+    System.out.println(originalString);
+    System.out.println(encryptedString);
+    System.out.println(decryptedString);
+}
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  517 -> 518[label="String secretKey = secret_key_to_encrypt_message; Type is: NotSpecified"];
+518[label="Node is: String secretKey = secret_key_to_encrypt_message;
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  518 -> 519[label="String secretKey = secret_key_to_encrypt_message Type is: java.lang.String"];
+519[label="Node is: String secretKey = secret_key_to_encrypt_message
+ Primary T is: java.lang.String
+ Domain T is: NA",fontcolor="blue"];
+  519 -> 520[label="secretKey = secret_key_to_encrypt_message Type is: NotSpecified"];
+520[label="Node is: secretKey = secret_key_to_encrypt_message
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  520 -> 521[label="String Type is: NotSpecified"];
+521[label="Node is: String
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  520 -> 523[label="secretKey Type is: String"];
+523[label="Node is: secretKey
+ Primary T is: String
+ Domain T is: NA",fontcolor="blue"];
+  520 -> 524[label="secret_key_to_encrypt_message Type is: java.lang.String"];
+524[label="Node is: secret_key_to_encrypt_message
+ Primary T is: java.lang.String
+ Domain T is: secret_key(KEY)",fontcolor="blue"];
+  517 -> 525[label="String originalString = secret_message_to_smart_device; Type is: NotSpecified"];
+525[label="Node is: String originalString = secret_message_to_smart_device;
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  525 -> 526[label="String originalString = secret_message_to_smart_device Type is: java.lang.String"];
+526[label="Node is: String originalString = secret_message_to_smart_device
+ Primary T is: java.lang.String
+ Domain T is: NA",fontcolor="blue"];
+  526 -> 527[label="originalString = secret_message_to_smart_device Type is: NotSpecified"];
+527[label="Node is: originalString = secret_message_to_smart_device
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  527 -> 528[label="String Type is: NotSpecified"];
+528[label="Node is: String
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  527 -> 530[label="originalString Type is: String"];
+530[label="Node is: originalString
+ Primary T is: String
+ Domain T is: plaintext",fontcolor="blue"];
+  527 -> 531[label="secret_message_to_smart_device Type is: java.lang.String"];
+531[label="Node is: secret_message_to_smart_device
+ Primary T is: java.lang.String
+ Domain T is: NA",fontcolor="blue"];
+  517 -> 532[label="String encryptedString = encrypt(originalString, secret_key_to_encrypt_message); Type is: NotSpecified"];
+532[label="Node is: String encryptedString = encrypt(originalString, secret_key_to_encrypt_message);
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  532 -> 533[label="String encryptedString = encrypt(originalString, secret_key_to_encrypt_message) Type is: java.lang.String"];
+533[label="Node is: String encryptedString = encrypt(originalString, secret_key_to_encrypt_message)
+ Primary T is: java.lang.String
+ Domain T is: NA",fontcolor="blue"];
+  533 -> 534[label="encryptedString = encrypt(originalString, secret_key_to_encrypt_message) Type is: NotSpecified"];
+534[label="Node is: encryptedString = encrypt(originalString, secret_key_to_encrypt_message)
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  534 -> 535[label="String Type is: NotSpecified"];
+535[label="Node is: String
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  534 -> 570[label="encryptedString Type is: java.lang.String"];
+570[label="Node is: encryptedString
+ Primary T is: java.lang.String
+ Domain T is: ciphertext -> ciphertext(decoded)",fontcolor="blue"];
+  534 -> 538[label="encrypt(originalString, secret_key_to_encrypt_message) Type is: java.lang.String"];
+538[label="Node is: encrypt(originalString, secret_key_to_encrypt_message)
+ Primary T is: java.lang.String
+ Domain T is: ciphertext",fontcolor="blue"];
+  538 -> 539[label="encrypt Type is: NotSpecified"];
+539[label="Node is: encrypt
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  538 -> 540[label="originalString Type is: java.lang.String"];
+540[label="Node is: originalString
+ Primary T is: java.lang.String
+ Domain T is: plaintext",fontcolor="blue"];
+  561 -> 562[label="originalString Type is: String"];
+562[label="Node is: originalString
+ Primary T is: String
+ Domain T is: plaintext",fontcolor="blue"];
+  538 -> 542[label="secret_key_to_encrypt_message Type is: java.lang.String"];
+542[label="Node is: secret_key_to_encrypt_message
+ Primary T is: java.lang.String
+ Domain T is: secret_key(KEY)",fontcolor="blue"];
+  517 -> 543[label="String decryptedString = decrypt(encryptedString, secret_key_to_encrypt_message); Type is: NotSpecified"];
+543[label="Node is: String decryptedString = decrypt(encryptedString, secret_key_to_encrypt_message);
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  543 -> 544[label="String decryptedString = decrypt(encryptedString, secret_key_to_encrypt_message) Type is: java.lang.String"];
+544[label="Node is: String decryptedString = decrypt(encryptedString, secret_key_to_encrypt_message)
+ Primary T is: java.lang.String
+ Domain T is: NA",fontcolor="blue"];
+  544 -> 545[label="decryptedString = decrypt(encryptedString, secret_key_to_encrypt_message) Type is: NotSpecified"];
+545[label="Node is: decryptedString = decrypt(encryptedString, secret_key_to_encrypt_message)
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  545 -> 546[label="String Type is: NotSpecified"];
+546[label="Node is: String
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  545 -> 580[label="decryptedString Type is: java.lang.String"];
+580[label="Node is: decryptedString
+ Primary T is: java.lang.String
+ Domain T is: plaintext",fontcolor="blue"];
+  545 -> 549[label="decrypt(encryptedString, secret_key_to_encrypt_message) Type is: java.lang.String"];
+549[label="Node is: decrypt(encryptedString, secret_key_to_encrypt_message)
+ Primary T is: java.lang.String
+ Domain T is: plaintext",fontcolor="blue"];
+  549 -> 550[label="decrypt Type is: NotSpecified"];
+550[label="Node is: decrypt
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  549 -> 570[label="encryptedString Type is: java.lang.String"];
+570[label="Node is: encryptedString
+ Primary T is: java.lang.String
+ Domain T is: ciphertext -> ciphertext(decoded)",fontcolor="blue"];
+  570 -> 570[label="encryptedString Type is: java.lang.String"];
+570[label="Node is: encryptedString
+ Primary T is: java.lang.String
+ Domain T is: ciphertext -> ciphertext(decoded)",fontcolor="blue"];
+  549 -> 553[label="secret_key_to_encrypt_message Type is: java.lang.String"];
+553[label="Node is: secret_key_to_encrypt_message
+ Primary T is: java.lang.String
+ Domain T is: secret_key(KEY)",fontcolor="blue"];
+  517 -> 554[label="System.out.println(originalString); Type is: NotSpecified"];
+554[label="Node is: System.out.println(originalString);
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  554 -> 555[label="System.out.println(originalString) Type is: void"];
+555[label="Node is: System.out.println(originalString)
+ Primary T is: void
+ Domain T is: NA",fontcolor="blue"];
+  555 -> 556[label="System.out Type is: java.io.PrintStream"];
+556[label="Node is: System.out
+ Primary T is: java.io.PrintStream
+ Domain T is: NA",fontcolor="blue"];
+  574 -> 575[label="System Type is: NotSpecified"];
+575[label="Node is: System
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  575 -> 576[label="System Type is: NotSpecified"];
+576[label="Node is: System
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  574 -> 577[label="out Type is: NotSpecified"];
+577[label="Node is: out
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  555 -> 560[label="println Type is: java.io.PrintStream"];
+560[label="Node is: println
+ Primary T is: java.io.PrintStream
+ Domain T is: NA",fontcolor="blue"];
+  555 -> 561[label="originalString Type is: java.lang.String"];
+561[label="Node is: originalString
+ Primary T is: java.lang.String
+ Domain T is: plaintext",fontcolor="blue"];
+  517 -> 563[label="System.out.println(encryptedString); Type is: NotSpecified"];
+563[label="Node is: System.out.println(encryptedString);
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  563 -> 564[label="System.out.println(encryptedString) Type is: void"];
+564[label="Node is: System.out.println(encryptedString)
+ Primary T is: void
+ Domain T is: NA",fontcolor="blue"];
+  564 -> 565[label="System.out Type is: java.io.PrintStream"];
+565[label="Node is: System.out
+ Primary T is: java.io.PrintStream
+ Domain T is: NA",fontcolor="blue"];
+  564 -> 569[label="println Type is: java.io.PrintStream"];
+569[label="Node is: println
+ Primary T is: java.io.PrintStream
+ Domain T is: NA",fontcolor="blue"];
+  564 -> 570[label="encryptedString Type is: java.lang.String"];
+570[label="Node is: encryptedString
+ Primary T is: java.lang.String
+ Domain T is: ciphertext -> ciphertext(decoded)",fontcolor="blue"];
+  517 -> 572[label="System.out.println(decryptedString); Type is: NotSpecified"];
+572[label="Node is: System.out.println(decryptedString);
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  572 -> 573[label="System.out.println(decryptedString) Type is: void"];
+573[label="Node is: System.out.println(decryptedString)
+ Primary T is: void
+ Domain T is: NA",fontcolor="blue"];
+  573 -> 574[label="System.out Type is: java.io.PrintStream"];
+574[label="Node is: System.out
+ Primary T is: java.io.PrintStream
+ Domain T is: NA",fontcolor="blue"];
+  573 -> 578[label="println Type is: java.io.PrintStream"];
+578[label="Node is: println
+ Primary T is: java.io.PrintStream
+ Domain T is: NA",fontcolor="blue"];
+  573 -> 580[label="decryptedString Type is: java.lang.String"];
+580[label="Node is: decryptedString
+ Primary T is: java.lang.String
+ Domain T is: plaintext",fontcolor="blue"];
+  580 -> 580[label="decryptedString Type is: java.lang.String"];
+580[label="Node is: decryptedString
+ Primary T is: java.lang.String
+ Domain T is: plaintext",fontcolor="blue"];
+  }

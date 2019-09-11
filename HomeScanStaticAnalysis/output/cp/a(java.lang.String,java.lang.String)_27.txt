@@ -1,0 +1,645 @@
+digraph "a(java.lang.String,java.lang.String)" {
+ label="a(java.lang.String,java.lang.String)"
+{
+ node [shape=box]} 
+0 -> 0[label="public static String a(final String s, final String s2) {
+    if (TextUtils.isEmpty((CharSequence) s2)) {
+        throw new GeneralSecurityException(No public key available from Chromecast);
+    }
+    final byte[] decode = Base64.decode(s2, 0);
+    final byte[] array = new byte[k.a.length + decode.length];
+    System.arraycopy(k.a, 0, array, 0, k.a.length);
+    System.arraycopy(decode, 0, array, k.a.length, decode.length);
+    a(array, 2, array.length - 4);
+    a(array, 21, decode.length + 1);
+    final PublicKey generatePublic = KeyFactory.getInstance(RSA).generatePublic(new X509EncodedKeySpec(array));
+    final Cipher instance = Cipher.getInstance(RSA/None/PKCS1Padding, BC);
+    instance.init(1, generatePublic);
+    return Base64.encodeToString(instance.doFinal(s.getBytes()), 2);
+} Type is: java.lang.String"];
+0[label="Node is: public static String a(final String s, final String s2) {
+    if (TextUtils.isEmpty((CharSequence) s2)) {
+        throw new GeneralSecurityException(No public key available from Chromecast);
+    }
+    final byte[] decode = Base64.decode(s2, 0);
+    final byte[] array = new byte[k.a.length + decode.length];
+    System.arraycopy(k.a, 0, array, 0, k.a.length);
+    System.arraycopy(decode, 0, array, k.a.length, decode.length);
+    a(array, 2, array.length - 4);
+    a(array, 21, decode.length + 1);
+    final PublicKey generatePublic = KeyFactory.getInstance(RSA).generatePublic(new X509EncodedKeySpec(array));
+    final Cipher instance = Cipher.getInstance(RSA/None/PKCS1Padding, BC);
+    instance.init(1, generatePublic);
+    return Base64.encodeToString(instance.doFinal(s.getBytes()), 2);
+}
+ Primary T is: java.lang.String
+ Domain T is: method",fontcolor="blue"];
+  0 -> 1[label="a Type is: NotSpecified"];
+1[label="Node is: a
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  0 -> 2[label="final String s Type is: NotSpecified"];
+2[label="Node is: final String s
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  2 -> 3[label="String Type is: NotSpecified"];
+3[label="Node is: String
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  10 -> 11[label="String Type is: NotSpecified"];
+11[label="Node is: String
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  2 -> 174[label="s Type is: String"];
+174[label="Node is: s
+ Primary T is: String
+ Domain T is: plaintext",fontcolor="blue"];
+  0 -> 6[label="final String s2 Type is: NotSpecified"];
+6[label="Node is: final String s2
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  6 -> 7[label="String Type is: NotSpecified"];
+7[label="Node is: String
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  6 -> 9[label="s2 Type is: String"];
+9[label="Node is: s2
+ Primary T is: String
+ Domain T is: NA",fontcolor="blue"];
+  0 -> 10[label="String Type is: NotSpecified"];
+10[label="Node is: String
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  0 -> 12[label="{
+    if (TextUtils.isEmpty((CharSequence) s2)) {
+        throw new GeneralSecurityException(No public key available from Chromecast);
+    }
+    final byte[] decode = Base64.decode(s2, 0);
+    final byte[] array = new byte[k.a.length + decode.length];
+    System.arraycopy(k.a, 0, array, 0, k.a.length);
+    System.arraycopy(decode, 0, array, k.a.length, decode.length);
+    a(array, 2, array.length - 4);
+    a(array, 21, decode.length + 1);
+    final PublicKey generatePublic = KeyFactory.getInstance(RSA).generatePublic(new X509EncodedKeySpec(array));
+    final Cipher instance = Cipher.getInstance(RSA/None/PKCS1Padding, BC);
+    instance.init(1, generatePublic);
+    return Base64.encodeToString(instance.doFinal(s.getBytes()), 2);
+} Type is: NotSpecified"];
+12[label="Node is: {
+    if (TextUtils.isEmpty((CharSequence) s2)) {
+        throw new GeneralSecurityException(No public key available from Chromecast);
+    }
+    final byte[] decode = Base64.decode(s2, 0);
+    final byte[] array = new byte[k.a.length + decode.length];
+    System.arraycopy(k.a, 0, array, 0, k.a.length);
+    System.arraycopy(decode, 0, array, k.a.length, decode.length);
+    a(array, 2, array.length - 4);
+    a(array, 21, decode.length + 1);
+    final PublicKey generatePublic = KeyFactory.getInstance(RSA).generatePublic(new X509EncodedKeySpec(array));
+    final Cipher instance = Cipher.getInstance(RSA/None/PKCS1Padding, BC);
+    instance.init(1, generatePublic);
+    return Base64.encodeToString(instance.doFinal(s.getBytes()), 2);
+}
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  12 -> 13[label="if (TextUtils.isEmpty((CharSequence) s2)) {
+    throw new GeneralSecurityException(No public key available from Chromecast);
+} Type is: NotSpecified"];
+13[label="Node is: if (TextUtils.isEmpty((CharSequence) s2)) {
+    throw new GeneralSecurityException(No public key available from Chromecast);
+}
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  13 -> 14[label="TextUtils.isEmpty((CharSequence) s2) Type is: NotSpecified"];
+14[label="Node is: TextUtils.isEmpty((CharSequence) s2)
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  14 -> 15[label="TextUtils Type is: NotSpecified"];
+15[label="Node is: TextUtils
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  15 -> 16[label="TextUtils Type is: NotSpecified"];
+16[label="Node is: TextUtils
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  14 -> 17[label="isEmpty Type is: NotSpecified"];
+17[label="Node is: isEmpty
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  14 -> 18[label="(CharSequence) s2 Type is: NotSpecified"];
+18[label="Node is: (CharSequence) s2
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  18 -> 19[label="CharSequence Type is: NotSpecified"];
+19[label="Node is: CharSequence
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  19 -> 20[label="CharSequence Type is: NotSpecified"];
+20[label="Node is: CharSequence
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  18 -> 21[label="s2 Type is: String"];
+21[label="Node is: s2
+ Primary T is: String
+ Domain T is: NA",fontcolor="blue"];
+  39 -> 40[label="s2 Type is: String"];
+40[label="Node is: s2
+ Primary T is: String
+ Domain T is: NA",fontcolor="blue"];
+  13 -> 23[label="{
+    throw new GeneralSecurityException(No public key available from Chromecast);
+} Type is: NotSpecified"];
+23[label="Node is: {
+    throw new GeneralSecurityException(No public key available from Chromecast);
+}
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  23 -> 24[label="throw new GeneralSecurityException(No public key available from Chromecast); Type is: NotSpecified"];
+24[label="Node is: throw new GeneralSecurityException(No public key available from Chromecast);
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  24 -> 25[label="new GeneralSecurityException(No public key available from Chromecast) Type is: NotSpecified"];
+25[label="Node is: new GeneralSecurityException(No public key available from Chromecast)
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  25 -> 26[label="GeneralSecurityException Type is: NotSpecified"];
+26[label="Node is: GeneralSecurityException
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  26 -> 27[label="GeneralSecurityException Type is: NotSpecified"];
+27[label="Node is: GeneralSecurityException
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  25 -> 28[label="No public key available from Chromecast Type is: java.lang.String"];
+28[label="Node is: No public key available from Chromecast
+ Primary T is: java.lang.String
+ Domain T is: NA",fontcolor="blue"];
+  12 -> 29[label="final byte[] decode = Base64.decode(s2, 0); Type is: NotSpecified"];
+29[label="Node is: final byte[] decode = Base64.decode(s2, 0);
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  29 -> 30[label="final byte[] decode = Base64.decode(s2, 0) Type is: byte[]"];
+30[label="Node is: final byte[] decode = Base64.decode(s2, 0)
+ Primary T is: byte[]
+ Domain T is: public_key -> publicKey",fontcolor="blue"];
+  30 -> 31[label="decode = Base64.decode(s2, 0) Type is: NotSpecified"];
+31[label="Node is: decode = Base64.decode(s2, 0)
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  31 -> 32[label="byte[] Type is: NotSpecified"];
+32[label="Node is: byte[]
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  45 -> 46[label="byte Type is: NotSpecified"];
+46[label="Node is: byte
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  31 -> 86[label="decode Type is: byte[]"];
+86[label="Node is: decode
+ Primary T is: byte[]
+ Domain T is: public_key -> publicKey",fontcolor="blue"];
+  31 -> 35[label="Base64.decode(s2, 0) Type is: byte[]"];
+35[label="Node is: Base64.decode(s2, 0)
+ Primary T is: byte[]
+ Domain T is: public_key -> publicKey",fontcolor="blue"];
+  35 -> 36[label="Base64 Type is: NotSpecified"];
+36[label="Node is: Base64
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  165 -> 166[label="Base64 Type is: NotSpecified"];
+166[label="Node is: Base64
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  35 -> 86[label="decode Type is: byte[]"];
+86[label="Node is: decode
+ Primary T is: byte[]
+ Domain T is: public_key -> publicKey",fontcolor="blue"];
+  35 -> 39[label="s2 Type is: byte[]"];
+39[label="Node is: s2
+ Primary T is: byte[]
+ Domain T is: publicKey",fontcolor="blue"];
+  35 -> 41[label="0 Type is: int"];
+41[label="Node is: 0
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  12 -> 42[label="final byte[] array = new byte[k.a.length + decode.length]; Type is: NotSpecified"];
+42[label="Node is: final byte[] array = new byte[k.a.length + decode.length];
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  42 -> 43[label="final byte[] array = new byte[k.a.length + decode.length] Type is: byte[]"];
+43[label="Node is: final byte[] array = new byte[k.a.length + decode.length]
+ Primary T is: byte[]
+ Domain T is: public_key -> publicKey",fontcolor="blue"];
+  43 -> 44[label="array = new byte[k.a.length + decode.length] Type is: NotSpecified"];
+44[label="Node is: array = new byte[k.a.length + decode.length]
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  44 -> 45[label="byte[] Type is: NotSpecified"];
+45[label="Node is: byte[]
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  44 -> 141[label="array Type is: byte[]"];
+141[label="Node is: array
+ Primary T is: byte[]
+ Domain T is: public_key -> publicKey",fontcolor="blue"];
+  44 -> 48[label="new byte[k.a.length + decode.length] Type is: byte[]"];
+48[label="Node is: new byte[k.a.length + decode.length]
+ Primary T is: byte[]
+ Domain T is: public_key -> publicKey",fontcolor="blue"];
+  48 -> 49[label="byte Type is: NotSpecified"];
+49[label="Node is: byte
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  48 -> 50[label="[k.a.length + decode.length] Type is: NotSpecified"];
+50[label="Node is: [k.a.length + decode.length]
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  50 -> 51[label="k.a.length + decode.length Type is: NotSpecified"];
+51[label="Node is: k.a.length + decode.length
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  51 -> 52[label="k.a.length Type is: NotSpecified"];
+52[label="Node is: k.a.length
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  91 -> 67[label="k.a Type is: NotSpecified"];
+67[label="Node is: k.a
+ Primary T is: NotSpecified
+ Domain T is: public_key -> publicKey",fontcolor="blue"];
+  67 -> 93[label="k Type is: NotSpecified"];
+93[label="Node is: k
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  93 -> 94[label="k Type is: NotSpecified"];
+94[label="Node is: k
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  67 -> 95[label="a Type is: NotSpecified"];
+95[label="Node is: a
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  91 -> 96[label="length Type is: NotSpecified"];
+96[label="Node is: length
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  51 -> 58[label="decode.length Type is: NotSpecified"];
+58[label="Node is: decode.length
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  120 -> 86[label="decode Type is: byte[]"];
+86[label="Node is: decode
+ Primary T is: byte[]
+ Domain T is: public_key -> publicKey",fontcolor="blue"];
+  86 -> 86[label="decode Type is: byte[]"];
+86[label="Node is: decode
+ Primary T is: byte[]
+ Domain T is: public_key -> publicKey",fontcolor="blue"];
+  120 -> 123[label="length Type is: byte[]"];
+123[label="Node is: length
+ Primary T is: byte[]
+ Domain T is: NA",fontcolor="blue"];
+  12 -> 62[label="System.arraycopy(k.a, 0, array, 0, k.a.length); Type is: NotSpecified"];
+62[label="Node is: System.arraycopy(k.a, 0, array, 0, k.a.length);
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  62 -> 63[label="System.arraycopy(k.a, 0, array, 0, k.a.length) Type is: NotSpecified"];
+63[label="Node is: System.arraycopy(k.a, 0, array, 0, k.a.length)
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  63 -> 64[label="System Type is: NotSpecified"];
+64[label="Node is: System
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  83 -> 84[label="System Type is: NotSpecified"];
+84[label="Node is: System
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  63 -> 66[label="arraycopy Type is: NotSpecified"];
+66[label="Node is: arraycopy
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  63 -> 67[label="k.a Type is: NotSpecified"];
+67[label="Node is: k.a
+ Primary T is: NotSpecified
+ Domain T is: public_key -> publicKey",fontcolor="blue"];
+  63 -> 74[label="0 Type is: int"];
+74[label="Node is: 0
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  63 -> 141[label="array Type is: byte[]"];
+141[label="Node is: array
+ Primary T is: byte[]
+ Domain T is: public_key -> publicKey",fontcolor="blue"];
+  141 -> 141[label="array Type is: byte[]"];
+141[label="Node is: array
+ Primary T is: byte[]
+ Domain T is: public_key -> publicKey",fontcolor="blue"];
+  63 -> 75[label="k.a.length Type is: int"];
+75[label="Node is: k.a.length
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  12 -> 81[label="System.arraycopy(decode, 0, array, k.a.length, decode.length); Type is: NotSpecified"];
+81[label="Node is: System.arraycopy(decode, 0, array, k.a.length, decode.length);
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  81 -> 82[label="System.arraycopy(decode, 0, array, k.a.length, decode.length) Type is: NotSpecified"];
+82[label="Node is: System.arraycopy(decode, 0, array, k.a.length, decode.length)
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  82 -> 83[label="System Type is: NotSpecified"];
+83[label="Node is: System
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  82 -> 85[label="arraycopy Type is: NotSpecified"];
+85[label="Node is: arraycopy
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  82 -> 86[label="decode Type is: byte[]"];
+86[label="Node is: decode
+ Primary T is: byte[]
+ Domain T is: public_key -> publicKey",fontcolor="blue"];
+  82 -> 88[label="0 Type is: int"];
+88[label="Node is: 0
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  82 -> 141[label="array Type is: byte[]"];
+141[label="Node is: array
+ Primary T is: byte[]
+ Domain T is: public_key -> publicKey",fontcolor="blue"];
+  82 -> 91[label="k.a.length Type is: byte[]"];
+91[label="Node is: k.a.length
+ Primary T is: byte[]
+ Domain T is: NA",fontcolor="blue"];
+  82 -> 97[label="decode.length Type is: byte[]"];
+97[label="Node is: decode.length
+ Primary T is: byte[]
+ Domain T is: NA",fontcolor="blue"];
+  12 -> 101[label="a(array, 2, array.length - 4); Type is: NotSpecified"];
+101[label="Node is: a(array, 2, array.length - 4);
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  101 -> 102[label="a(array, 2, array.length - 4) Type is: NotSpecified"];
+102[label="Node is: a(array, 2, array.length - 4)
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  102 -> 103[label="a Type is: NotSpecified"];
+103[label="Node is: a
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  102 -> 141[label="array Type is: byte[]"];
+141[label="Node is: array
+ Primary T is: byte[]
+ Domain T is: public_key -> publicKey",fontcolor="blue"];
+  102 -> 106[label="2 Type is: int"];
+106[label="Node is: 2
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  102 -> 107[label="array.length - 4 Type is: int"];
+107[label="Node is: array.length - 4
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  107 -> 108[label="array.length Type is: NotSpecified"];
+108[label="Node is: array.length
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  108 -> 141[label="array Type is: byte[]"];
+141[label="Node is: array
+ Primary T is: byte[]
+ Domain T is: public_key -> publicKey",fontcolor="blue"];
+  108 -> 111[label="length Type is: byte[]"];
+111[label="Node is: length
+ Primary T is: byte[]
+ Domain T is: NA",fontcolor="blue"];
+  107 -> 112[label="4 Type is: int"];
+112[label="Node is: 4
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  12 -> 113[label="a(array, 21, decode.length + 1); Type is: NotSpecified"];
+113[label="Node is: a(array, 21, decode.length + 1);
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  113 -> 114[label="a(array, 21, decode.length + 1) Type is: NotSpecified"];
+114[label="Node is: a(array, 21, decode.length + 1)
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  114 -> 115[label="a Type is: NotSpecified"];
+115[label="Node is: a
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  114 -> 141[label="array Type is: byte[]"];
+141[label="Node is: array
+ Primary T is: byte[]
+ Domain T is: public_key -> publicKey",fontcolor="blue"];
+  114 -> 118[label="21 Type is: int"];
+118[label="Node is: 21
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  114 -> 119[label="decode.length + 1 Type is: int"];
+119[label="Node is: decode.length + 1
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  119 -> 120[label="decode.length Type is: NotSpecified"];
+120[label="Node is: decode.length
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  119 -> 124[label="1 Type is: int"];
+124[label="Node is: 1
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  12 -> 125[label="final PublicKey generatePublic = KeyFactory.getInstance(RSA).generatePublic(new X509EncodedKeySpec(array)); Type is: NotSpecified"];
+125[label="Node is: final PublicKey generatePublic = KeyFactory.getInstance(RSA).generatePublic(new X509EncodedKeySpec(array));
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  125 -> 126[label="final PublicKey generatePublic = KeyFactory.getInstance(RSA).generatePublic(new X509EncodedKeySpec(array)) Type is: NotSpecified"];
+126[label="Node is: final PublicKey generatePublic = KeyFactory.getInstance(RSA).generatePublic(new X509EncodedKeySpec(array))
+ Primary T is: NotSpecified
+ Domain T is: public_key -> publicKey",fontcolor="blue"];
+  126 -> 127[label="generatePublic = KeyFactory.getInstance(RSA).generatePublic(new X509EncodedKeySpec(array)) Type is: NotSpecified"];
+127[label="Node is: generatePublic = KeyFactory.getInstance(RSA).generatePublic(new X509EncodedKeySpec(array))
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  127 -> 128[label="PublicKey Type is: NotSpecified"];
+128[label="Node is: PublicKey
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  128 -> 129[label="PublicKey Type is: NotSpecified"];
+129[label="Node is: PublicKey
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  127 -> 162[label="generatePublic Type is: PublicKey"];
+162[label="Node is: generatePublic
+ Primary T is: PublicKey
+ Domain T is: public_key -> publicKey",fontcolor="blue"];
+  127 -> 131[label="KeyFactory.getInstance(RSA).generatePublic(new X509EncodedKeySpec(array)) Type is: PublicKey"];
+131[label="Node is: KeyFactory.getInstance(RSA).generatePublic(new X509EncodedKeySpec(array))
+ Primary T is: PublicKey
+ Domain T is: public_key -> publicKey",fontcolor="blue"];
+  131 -> 132[label="KeyFactory.getInstance(RSA) Type is: NotSpecified"];
+132[label="Node is: KeyFactory.getInstance(RSA)
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  132 -> 133[label="KeyFactory Type is: NotSpecified"];
+133[label="Node is: KeyFactory
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  133 -> 134[label="KeyFactory Type is: NotSpecified"];
+134[label="Node is: KeyFactory
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  132 -> 135[label="getInstance Type is: NotSpecified"];
+135[label="Node is: getInstance
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  132 -> 136[label="RSA Type is: java.lang.String"];
+136[label="Node is: RSA
+ Primary T is: java.lang.String
+ Domain T is: NA",fontcolor="blue"];
+  131 -> 162[label="generatePublic Type is: PublicKey"];
+162[label="Node is: generatePublic
+ Primary T is: PublicKey
+ Domain T is: public_key -> publicKey",fontcolor="blue"];
+  131 -> 138[label="new X509EncodedKeySpec(array) Type is: PublicKey"];
+138[label="Node is: new X509EncodedKeySpec(array)
+ Primary T is: PublicKey
+ Domain T is: public_key -> encodedKey -> publicKey",fontcolor="blue"];
+  138 -> 139[label="X509EncodedKeySpec Type is: NotSpecified"];
+139[label="Node is: X509EncodedKeySpec
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  139 -> 140[label="X509EncodedKeySpec Type is: NotSpecified"];
+140[label="Node is: X509EncodedKeySpec
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  138 -> 141[label="array Type is: byte[]"];
+141[label="Node is: array
+ Primary T is: byte[]
+ Domain T is: public_key -> publicKey",fontcolor="blue"];
+  12 -> 143[label="final Cipher instance = Cipher.getInstance(RSA/None/PKCS1Padding, BC); Type is: NotSpecified"];
+143[label="Node is: final Cipher instance = Cipher.getInstance(RSA/None/PKCS1Padding, BC);
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  143 -> 144[label="final Cipher instance = Cipher.getInstance(RSA/None/PKCS1Padding, BC) Type is: NotSpecified"];
+144[label="Node is: final Cipher instance = Cipher.getInstance(RSA/None/PKCS1Padding, BC)
+ Primary T is: NotSpecified
+ Domain T is: asymmetric",fontcolor="blue"];
+  144 -> 145[label="instance = Cipher.getInstance(RSA/None/PKCS1Padding, BC) Type is: NotSpecified"];
+145[label="Node is: instance = Cipher.getInstance(RSA/None/PKCS1Padding, BC)
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  145 -> 146[label="Cipher Type is: NotSpecified"];
+146[label="Node is: Cipher
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  146 -> 147[label="Cipher Type is: NotSpecified"];
+147[label="Node is: Cipher
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  145 -> 169[label="instance Type is: Cipher"];
+169[label="Node is: instance
+ Primary T is: Cipher
+ Domain T is: asymmetric",fontcolor="blue"];
+  145 -> 149[label="Cipher.getInstance(RSA/None/PKCS1Padding, BC) Type is: Cipher"];
+149[label="Node is: Cipher.getInstance(RSA/None/PKCS1Padding, BC)
+ Primary T is: Cipher
+ Domain T is: asymmetric",fontcolor="blue"];
+  149 -> 150[label="Cipher Type is: NotSpecified"];
+150[label="Node is: Cipher
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  150 -> 151[label="Cipher Type is: NotSpecified"];
+151[label="Node is: Cipher
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  149 -> 152[label="getInstance Type is: NotSpecified"];
+152[label="Node is: getInstance
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  149 -> 153[label="RSA/None/PKCS1Padding Type is: java.lang.String"];
+153[label="Node is: RSA/None/PKCS1Padding
+ Primary T is: java.lang.String
+ Domain T is: NA",fontcolor="blue"];
+  149 -> 154[label="BC Type is: java.lang.String"];
+154[label="Node is: BC
+ Primary T is: java.lang.String
+ Domain T is: NA",fontcolor="blue"];
+  12 -> 155[label="instance.init(1, generatePublic); Type is: NotSpecified"];
+155[label="Node is: instance.init(1, generatePublic);
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  155 -> 156[label="instance.init(1, generatePublic) Type is: NotSpecified"];
+156[label="Node is: instance.init(1, generatePublic)
+ Primary T is: NotSpecified
+ Domain T is: encryption",fontcolor="blue"];
+  156 -> 169[label="instance Type is: Cipher"];
+169[label="Node is: instance
+ Primary T is: Cipher
+ Domain T is: asymmetric",fontcolor="blue"];
+  169 -> 169[label="instance Type is: Cipher"];
+169[label="Node is: instance
+ Primary T is: Cipher
+ Domain T is: asymmetric",fontcolor="blue"];
+  156 -> 159[label="init Type is: Cipher"];
+159[label="Node is: init
+ Primary T is: Cipher
+ Domain T is: NA",fontcolor="blue"];
+  156 -> 160[label="1 Type is: int"];
+160[label="Node is: 1
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  156 -> 161[label="generatePublic Type is: int"];
+161[label="Node is: generatePublic
+ Primary T is: int
+ Domain T is: public_key",fontcolor="blue"];
+  161 -> 162[label="generatePublic Type is: PublicKey"];
+162[label="Node is: generatePublic
+ Primary T is: PublicKey
+ Domain T is: public_key -> publicKey",fontcolor="blue"];
+  12 -> null[label="return Base64.encodeToString(instance.doFinal(s.getBytes()), 2); Type is: NotSpecified"];
+null[label="Node is: return Base64.encodeToString(instance.doFinal(s.getBytes()), 2);
+ Primary T is: NotSpecified
+ Domain T is: ciphertext",fontcolor="blue"];
+  null -> 164[label="Base64.encodeToString(instance.doFinal(s.getBytes()), 2) Type is: NotSpecified"];
+164[label="Node is: Base64.encodeToString(instance.doFinal(s.getBytes()), 2)
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  164 -> 165[label="Base64 Type is: NotSpecified"];
+165[label="Node is: Base64
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  164 -> 167[label="encodeToString Type is: NotSpecified"];
+167[label="Node is: encodeToString
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  164 -> 168[label="instance.doFinal(s.getBytes()) Type is: NotSpecified"];
+168[label="Node is: instance.doFinal(s.getBytes())
+ Primary T is: NotSpecified
+ Domain T is: ciphertext",fontcolor="blue"];
+  168 -> 169[label="instance Type is: Cipher"];
+169[label="Node is: instance
+ Primary T is: Cipher
+ Domain T is: asymmetric",fontcolor="blue"];
+  168 -> 171[label="doFinal Type is: Cipher"];
+171[label="Node is: doFinal
+ Primary T is: Cipher
+ Domain T is: NA",fontcolor="blue"];
+  168 -> 172[label="s.getBytes() Type is: Cipher"];
+172[label="Node is: s.getBytes()
+ Primary T is: Cipher
+ Domain T is: plaintext",fontcolor="blue"];
+  172 -> 174[label="s Type is: String"];
+174[label="Node is: s
+ Primary T is: String
+ Domain T is: plaintext",fontcolor="blue"];
+  174 -> 174[label="s Type is: String"];
+174[label="Node is: s
+ Primary T is: String
+ Domain T is: plaintext",fontcolor="blue"];
+  172 -> 175[label="getBytes Type is: String"];
+175[label="Node is: getBytes
+ Primary T is: String
+ Domain T is: NA",fontcolor="blue"];
+  164 -> 176[label="2 Type is: int"];
+176[label="Node is: 2
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  }

@@ -1,0 +1,49 @@
+digraph "a()" {
+ label="a()"
+{
+ node [shape=box]} 
+221 -> 221[label="public final String a() {
+    return this.b;
+} Type is: java.lang.String"];
+221[label="Node is: public final String a() {
+    return this.b;
+}
+ Primary T is: java.lang.String
+ Domain T is: method",fontcolor="blue"];
+  221 -> 222[label="a Type is: NotSpecified"];
+222[label="Node is: a
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  221 -> 223[label="String Type is: NotSpecified"];
+223[label="Node is: String
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  223 -> 224[label="String Type is: NotSpecified"];
+224[label="Node is: String
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  221 -> 225[label="{
+    return this.b;
+} Type is: NotSpecified"];
+225[label="Node is: {
+    return this.b;
+}
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  225 -> null[label="return this.b; Type is: NotSpecified"];
+null[label="Node is: return this.b;
+ Primary T is: NotSpecified
+ Domain T is: ",fontcolor="blue"];
+  null -> 227[label="this.b Type is: NotSpecified"];
+227[label="Node is: this.b
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  227 -> 228[label="this Type is: NotSpecified"];
+228[label="Node is: this
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  227 -> 229[label="b Type is: NotSpecified"];
+229[label="Node is: b
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  }

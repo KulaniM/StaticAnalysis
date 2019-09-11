@@ -1,0 +1,17 @@
+digraph "m()" {
+ label="m()"
+{
+ node [shape=box]} 
+5629 -> 5629[label="public abstract void m(); Type is: void"];
+5629[label="Node is: public abstract void m();
+ Primary T is: void
+ Domain T is: method",fontcolor="blue"];
+  5629 -> 5630[label="m Type is: NotSpecified"];
+5630[label="Node is: m
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  5629 -> 5631[label="void Type is: NotSpecified"];
+5631[label="Node is: void
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  }

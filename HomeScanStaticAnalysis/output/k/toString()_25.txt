@@ -1,0 +1,59 @@
+digraph "toString()" {
+ label="toString()"
+{
+ node [shape=box]} 
+479 -> 479[label="@Override
+public final String toString() {
+    return this.b;
+} Type is: java.lang.String"];
+479[label="Node is: @Override
+public final String toString() {
+    return this.b;
+}
+ Primary T is: java.lang.String
+ Domain T is: method",fontcolor="blue"];
+  479 -> 480[label="@Override Type is: NotSpecified"];
+480[label="Node is: @Override
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  480 -> 481[label="Override Type is: NotSpecified"];
+481[label="Node is: Override
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  479 -> 482[label="toString Type is: NotSpecified"];
+482[label="Node is: toString
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  479 -> 483[label="String Type is: NotSpecified"];
+483[label="Node is: String
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  483 -> 484[label="String Type is: NotSpecified"];
+484[label="Node is: String
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  479 -> 485[label="{
+    return this.b;
+} Type is: NotSpecified"];
+485[label="Node is: {
+    return this.b;
+}
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  485 -> null[label="return this.b; Type is: NotSpecified"];
+null[label="Node is: return this.b;
+ Primary T is: NotSpecified
+ Domain T is: ",fontcolor="blue"];
+  null -> 487[label="this.b Type is: NotSpecified"];
+487[label="Node is: this.b
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  487 -> 488[label="this Type is: NotSpecified"];
+488[label="Node is: this
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  487 -> 489[label="b Type is: boolean"];
+489[label="Node is: b
+ Primary T is: boolean
+ Domain T is: NA",fontcolor="blue"];
+  }

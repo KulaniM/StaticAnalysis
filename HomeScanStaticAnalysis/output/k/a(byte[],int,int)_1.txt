@@ -1,0 +1,181 @@
+digraph "a(byte[],int,int)" {
+ label="a(byte[],int,int)"
+{
+ node [shape=box]} 
+177 -> 177[label="private static void a(final byte[] array, final int n, final int n2) {
+    array[n] = (byte) (n2 / 256);
+    array[n + 1] = (byte) (n2 % 256);
+} Type is: void"];
+177[label="Node is: private static void a(final byte[] array, final int n, final int n2) {
+    array[n] = (byte) (n2 / 256);
+    array[n + 1] = (byte) (n2 % 256);
+}
+ Primary T is: void
+ Domain T is: method",fontcolor="blue"];
+  177 -> 178[label="a Type is: NotSpecified"];
+178[label="Node is: a
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  177 -> 179[label="final byte[] array Type is: NotSpecified"];
+179[label="Node is: final byte[] array
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  179 -> 180[label="byte[] Type is: NotSpecified"];
+180[label="Node is: byte[]
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  180 -> 181[label="byte Type is: NotSpecified"];
+181[label="Node is: byte
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  179 -> 182[label="array Type is: byte[]"];
+182[label="Node is: array
+ Primary T is: byte[]
+ Domain T is: NA",fontcolor="blue"];
+  177 -> 183[label="final int n Type is: NotSpecified"];
+183[label="Node is: final int n
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  183 -> 184[label="int Type is: NotSpecified"];
+184[label="Node is: int
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  183 -> 185[label="n Type is: int"];
+185[label="Node is: n
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  177 -> 186[label="final int n2 Type is: NotSpecified"];
+186[label="Node is: final int n2
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  186 -> 187[label="int Type is: NotSpecified"];
+187[label="Node is: int
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  186 -> 188[label="n2 Type is: int"];
+188[label="Node is: n2
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  177 -> 189[label="void Type is: NotSpecified"];
+189[label="Node is: void
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  177 -> 190[label="{
+    array[n] = (byte) (n2 / 256);
+    array[n + 1] = (byte) (n2 % 256);
+} Type is: NotSpecified"];
+190[label="Node is: {
+    array[n] = (byte) (n2 / 256);
+    array[n + 1] = (byte) (n2 % 256);
+}
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  190 -> 191[label="array[n] = (byte) (n2 / 256); Type is: NotSpecified"];
+191[label="Node is: array[n] = (byte) (n2 / 256);
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  191 -> 192[label="array[n] = (byte) (n2 / 256) Type is: byte"];
+192[label="Node is: array[n] = (byte) (n2 / 256)
+ Primary T is: byte
+ Domain T is: NA",fontcolor="blue"];
+  192 -> 193[label="array[n] Type is: byte"];
+193[label="Node is: array[n]
+ Primary T is: byte
+ Domain T is: NA",fontcolor="blue"];
+  193 -> 194[label="array Type is: byte[]"];
+194[label="Node is: array
+ Primary T is: byte[]
+ Domain T is: NA",fontcolor="blue"];
+  208 -> 209[label="array Type is: byte[]"];
+209[label="Node is: array
+ Primary T is: byte[]
+ Domain T is: NA",fontcolor="blue"];
+  193 -> 196[label="n Type is: int"];
+196[label="Node is: n
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  211 -> 212[label="n Type is: int"];
+212[label="Node is: n
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  192 -> 198[label="(byte) (n2 / 256) Type is: byte"];
+198[label="Node is: (byte) (n2 / 256)
+ Primary T is: byte
+ Domain T is: NA",fontcolor="blue"];
+  198 -> 199[label="byte Type is: NotSpecified"];
+199[label="Node is: byte
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  198 -> 200[label="(n2 / 256) Type is: int"];
+200[label="Node is: (n2 / 256)
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  200 -> 201[label="n2 / 256 Type is: int"];
+201[label="Node is: n2 / 256
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  201 -> 202[label="n2 Type is: int"];
+202[label="Node is: n2
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  218 -> 219[label="n2 Type is: int"];
+219[label="Node is: n2
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  201 -> 204[label="256 Type is: int"];
+204[label="Node is: 256
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  190 -> 205[label="array[n + 1] = (byte) (n2 % 256); Type is: NotSpecified"];
+205[label="Node is: array[n + 1] = (byte) (n2 % 256);
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  205 -> 206[label="array[n + 1] = (byte) (n2 % 256) Type is: byte"];
+206[label="Node is: array[n + 1] = (byte) (n2 % 256)
+ Primary T is: byte
+ Domain T is: NA",fontcolor="blue"];
+  206 -> 207[label="array[n + 1] Type is: byte"];
+207[label="Node is: array[n + 1]
+ Primary T is: byte
+ Domain T is: NA",fontcolor="blue"];
+  207 -> 208[label="array Type is: byte[]"];
+208[label="Node is: array
+ Primary T is: byte[]
+ Domain T is: NA",fontcolor="blue"];
+  207 -> 210[label="n + 1 Type is: int"];
+210[label="Node is: n + 1
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  210 -> 211[label="n Type is: int"];
+211[label="Node is: n
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  210 -> 213[label="1 Type is: int"];
+213[label="Node is: 1
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  206 -> 214[label="(byte) (n2 % 256) Type is: byte"];
+214[label="Node is: (byte) (n2 % 256)
+ Primary T is: byte
+ Domain T is: NA",fontcolor="blue"];
+  214 -> 215[label="byte Type is: NotSpecified"];
+215[label="Node is: byte
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  214 -> 216[label="(n2 % 256) Type is: int"];
+216[label="Node is: (n2 % 256)
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  216 -> 217[label="n2 % 256 Type is: int"];
+217[label="Node is: n2 % 256
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  217 -> 218[label="n2 Type is: int"];
+218[label="Node is: n2
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  217 -> 220[label="256 Type is: int"];
+220[label="Node is: 256
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  }

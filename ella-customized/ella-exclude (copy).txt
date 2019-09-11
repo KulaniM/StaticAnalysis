@@ -1,7 +1,0 @@
-android.*
-com.android.*
-com.google.android.*
-com.google.dexmaker.*
-org.apache.commons.*
-org.apache.http.*
-org.apache.log4j.*

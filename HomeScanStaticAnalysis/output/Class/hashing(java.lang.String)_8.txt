@@ -1,0 +1,401 @@
+digraph "hashing(java.lang.String)" {
+ label="hashing(java.lang.String)"
+{
+ node [shape=box]} 
+663 -> 663[label="public static String hashing(String password) throws Exception {
+    MessageDigest md = MessageDigest.getInstance(MD5);
+    md.update(password.getBytes());
+    byte[] byteData = md.digest();
+    StringBuffer sb = new StringBuffer();
+    for (int i = 0; i < byteData.length; i++) {
+        sb.append(Integer.toString((byteData[i] & 0xFF) + 256, 16).substring(1));
+    }
+    return sb.toString();
+} Type is: java.lang.String"];
+663[label="Node is: public static String hashing(String password) throws Exception {
+    MessageDigest md = MessageDigest.getInstance(MD5);
+    md.update(password.getBytes());
+    byte[] byteData = md.digest();
+    StringBuffer sb = new StringBuffer();
+    for (int i = 0; i < byteData.length; i++) {
+        sb.append(Integer.toString((byteData[i] & 0xFF) + 256, 16).substring(1));
+    }
+    return sb.toString();
+}
+ Primary T is: java.lang.String
+ Domain T is: method",fontcolor="blue"];
+  663 -> 664[label="hashing Type is: NotSpecified"];
+664[label="Node is: hashing
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  663 -> 665[label="String password Type is: NotSpecified"];
+665[label="Node is: String password
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  665 -> 666[label="String Type is: NotSpecified"];
+666[label="Node is: String
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  671 -> 672[label="String Type is: NotSpecified"];
+672[label="Node is: String
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  665 -> 668[label="password Type is: String"];
+668[label="Node is: password
+ Primary T is: String
+ Domain T is: NA",fontcolor="blue"];
+  663 -> 669[label="Exception Type is: NotSpecified"];
+669[label="Node is: Exception
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  669 -> 670[label="Exception Type is: NotSpecified"];
+670[label="Node is: Exception
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  663 -> 671[label="String Type is: NotSpecified"];
+671[label="Node is: String
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  663 -> 673[label="{
+    MessageDigest md = MessageDigest.getInstance(MD5);
+    md.update(password.getBytes());
+    byte[] byteData = md.digest();
+    StringBuffer sb = new StringBuffer();
+    for (int i = 0; i < byteData.length; i++) {
+        sb.append(Integer.toString((byteData[i] & 0xFF) + 256, 16).substring(1));
+    }
+    return sb.toString();
+} Type is: NotSpecified"];
+673[label="Node is: {
+    MessageDigest md = MessageDigest.getInstance(MD5);
+    md.update(password.getBytes());
+    byte[] byteData = md.digest();
+    StringBuffer sb = new StringBuffer();
+    for (int i = 0; i < byteData.length; i++) {
+        sb.append(Integer.toString((byteData[i] & 0xFF) + 256, 16).substring(1));
+    }
+    return sb.toString();
+}
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  673 -> 674[label="MessageDigest md = MessageDigest.getInstance(MD5); Type is: NotSpecified"];
+674[label="Node is: MessageDigest md = MessageDigest.getInstance(MD5);
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  674 -> 675[label="MessageDigest md = MessageDigest.getInstance(MD5) Type is: java.security.MessageDigest"];
+675[label="Node is: MessageDigest md = MessageDigest.getInstance(MD5)
+ Primary T is: java.security.MessageDigest
+ Domain T is: NA",fontcolor="blue"];
+  675 -> 676[label="md = MessageDigest.getInstance(MD5) Type is: NotSpecified"];
+676[label="Node is: md = MessageDigest.getInstance(MD5)
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  676 -> 677[label="MessageDigest Type is: NotSpecified"];
+677[label="Node is: MessageDigest
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  677 -> 678[label="MessageDigest Type is: NotSpecified"];
+678[label="Node is: MessageDigest
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  676 -> 679[label="md Type is: MessageDigest"];
+679[label="Node is: md
+ Primary T is: MessageDigest
+ Domain T is: NA",fontcolor="blue"];
+  676 -> 680[label="MessageDigest.getInstance(MD5) Type is: java.security.MessageDigest"];
+680[label="Node is: MessageDigest.getInstance(MD5)
+ Primary T is: java.security.MessageDigest
+ Domain T is: hash",fontcolor="blue"];
+  680 -> 681[label="MessageDigest Type is: NotSpecified"];
+681[label="Node is: MessageDigest
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  681 -> 682[label="MessageDigest Type is: NotSpecified"];
+682[label="Node is: MessageDigest
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  680 -> 683[label="getInstance Type is: NotSpecified"];
+683[label="Node is: getInstance
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  680 -> 684[label="MD5 Type is: java.lang.String"];
+684[label="Node is: MD5
+ Primary T is: java.lang.String
+ Domain T is: NA",fontcolor="blue"];
+  673 -> 685[label="md.update(password.getBytes()); Type is: NotSpecified"];
+685[label="Node is: md.update(password.getBytes());
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  685 -> 686[label="md.update(password.getBytes()) Type is: void"];
+686[label="Node is: md.update(password.getBytes())
+ Primary T is: void
+ Domain T is: NA",fontcolor="blue"];
+  686 -> 701[label="md Type is: java.security.MessageDigest"];
+701[label="Node is: md
+ Primary T is: java.security.MessageDigest
+ Domain T is: hash",fontcolor="blue"];
+  701 -> 702[label="md Type is: MessageDigest"];
+702[label="Node is: md
+ Primary T is: MessageDigest
+ Domain T is: NA",fontcolor="blue"];
+  686 -> 689[label="update Type is: java.security.MessageDigest"];
+689[label="Node is: update
+ Primary T is: java.security.MessageDigest
+ Domain T is: NA",fontcolor="blue"];
+  686 -> 690[label="password.getBytes() Type is: byte[]"];
+690[label="Node is: password.getBytes()
+ Primary T is: byte[]
+ Domain T is: NA",fontcolor="blue"];
+  690 -> 691[label="password Type is: java.lang.String"];
+691[label="Node is: password
+ Primary T is: java.lang.String
+ Domain T is: NA",fontcolor="blue"];
+  691 -> 692[label="password Type is: String"];
+692[label="Node is: password
+ Primary T is: String
+ Domain T is: NA",fontcolor="blue"];
+  690 -> 693[label="getBytes Type is: java.lang.String"];
+693[label="Node is: getBytes
+ Primary T is: java.lang.String
+ Domain T is: NA",fontcolor="blue"];
+  673 -> 694[label="byte[] byteData = md.digest(); Type is: NotSpecified"];
+694[label="Node is: byte[] byteData = md.digest();
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  694 -> 695[label="byte[] byteData = md.digest() Type is: byte[]"];
+695[label="Node is: byte[] byteData = md.digest()
+ Primary T is: byte[]
+ Domain T is: NA",fontcolor="blue"];
+  695 -> 696[label="byteData = md.digest() Type is: NotSpecified"];
+696[label="Node is: byteData = md.digest()
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  696 -> 697[label="byte[] Type is: NotSpecified"];
+697[label="Node is: byte[]
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  697 -> 698[label="byte Type is: NotSpecified"];
+698[label="Node is: byte
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  696 -> 744[label="byteData Type is: byte[]"];
+744[label="Node is: byteData
+ Primary T is: byte[]
+ Domain T is: hash(msg,md5)",fontcolor="blue"];
+  696 -> 700[label="md.digest() Type is: byte[]"];
+700[label="Node is: md.digest()
+ Primary T is: byte[]
+ Domain T is: hash(msg,md5)",fontcolor="blue"];
+  700 -> 701[label="md Type is: java.security.MessageDigest"];
+701[label="Node is: md
+ Primary T is: java.security.MessageDigest
+ Domain T is: hash",fontcolor="blue"];
+  700 -> 703[label="digest Type is: java.security.MessageDigest"];
+703[label="Node is: digest
+ Primary T is: java.security.MessageDigest
+ Domain T is: NA",fontcolor="blue"];
+  673 -> 704[label="StringBuffer sb = new StringBuffer(); Type is: NotSpecified"];
+704[label="Node is: StringBuffer sb = new StringBuffer();
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  704 -> 705[label="StringBuffer sb = new StringBuffer() Type is: java.lang.StringBuffer"];
+705[label="Node is: StringBuffer sb = new StringBuffer()
+ Primary T is: java.lang.StringBuffer
+ Domain T is: NA",fontcolor="blue"];
+  705 -> 706[label="sb = new StringBuffer() Type is: NotSpecified"];
+706[label="Node is: sb = new StringBuffer()
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  706 -> 707[label="StringBuffer Type is: NotSpecified"];
+707[label="Node is: StringBuffer
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  711 -> 712[label="StringBuffer Type is: NotSpecified"];
+712[label="Node is: StringBuffer
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  706 -> 709[label="sb Type is: StringBuffer"];
+709[label="Node is: sb
+ Primary T is: StringBuffer
+ Domain T is: NA",fontcolor="blue"];
+  706 -> 710[label="new StringBuffer() Type is: java.lang.StringBuffer"];
+710[label="Node is: new StringBuffer()
+ Primary T is: java.lang.StringBuffer
+ Domain T is: NA",fontcolor="blue"];
+  710 -> 711[label="StringBuffer Type is: NotSpecified"];
+711[label="Node is: StringBuffer
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  673 -> 713[label="for (int i = 0; i < byteData.length; i++) {
+    sb.append(Integer.toString((byteData[i] & 0xFF) + 256, 16).substring(1));
+} Type is: NotSpecified"];
+713[label="Node is: for (int i = 0; i < byteData.length; i++) {
+    sb.append(Integer.toString((byteData[i] & 0xFF) + 256, 16).substring(1));
+}
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  713 -> 714[label="int i = 0 Type is: int"];
+714[label="Node is: int i = 0
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  714 -> 715[label="i = 0 Type is: NotSpecified"];
+715[label="Node is: i = 0
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  715 -> 716[label="int Type is: NotSpecified"];
+716[label="Node is: int
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  715 -> 717[label="i Type is: int"];
+717[label="Node is: i
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  715 -> 718[label="0 Type is: int"];
+718[label="Node is: 0
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  713 -> 719[label="i < byteData.length Type is: boolean"];
+719[label="Node is: i < byteData.length
+ Primary T is: boolean
+ Domain T is: NA",fontcolor="blue"];
+  719 -> 720[label="i Type is: int"];
+720[label="Node is: i
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  746 -> 747[label="i Type is: int"];
+747[label="Node is: i
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  719 -> 722[label="byteData.length Type is: int"];
+722[label="Node is: byteData.length
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  722 -> 744[label="byteData Type is: byte[]"];
+744[label="Node is: byteData
+ Primary T is: byte[]
+ Domain T is: hash(msg,md5)",fontcolor="blue"];
+  744 -> 744[label="byteData Type is: byte[]"];
+744[label="Node is: byteData
+ Primary T is: byte[]
+ Domain T is: hash(msg,md5)",fontcolor="blue"];
+  722 -> 725[label="length Type is: byte[]"];
+725[label="Node is: length
+ Primary T is: byte[]
+ Domain T is: NA",fontcolor="blue"];
+  713 -> 726[label="i++ Type is: boolean"];
+726[label="Node is: i++
+ Primary T is: boolean
+ Domain T is: NA",fontcolor="blue"];
+  726 -> 727[label="i Type is: int"];
+727[label="Node is: i
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  713 -> 729[label="{
+    sb.append(Integer.toString((byteData[i] & 0xFF) + 256, 16).substring(1));
+} Type is: boolean"];
+729[label="Node is: {
+    sb.append(Integer.toString((byteData[i] & 0xFF) + 256, 16).substring(1));
+}
+ Primary T is: boolean
+ Domain T is: NA",fontcolor="blue"];
+  729 -> 730[label="sb.append(Integer.toString((byteData[i] & 0xFF) + 256, 16).substring(1)); Type is: NotSpecified"];
+730[label="Node is: sb.append(Integer.toString((byteData[i] & 0xFF) + 256, 16).substring(1));
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  730 -> 731[label="sb.append(Integer.toString((byteData[i] & 0xFF) + 256, 16).substring(1)) Type is: java.lang.StringBuffer"];
+731[label="Node is: sb.append(Integer.toString((byteData[i] & 0xFF) + 256, 16).substring(1))
+ Primary T is: java.lang.StringBuffer
+ Domain T is: NA",fontcolor="blue"];
+  731 -> 732[label="sb Type is: java.lang.StringBuffer"];
+732[label="Node is: sb
+ Primary T is: java.lang.StringBuffer
+ Domain T is: NA",fontcolor="blue"];
+  755 -> 756[label="sb Type is: StringBuffer"];
+756[label="Node is: sb
+ Primary T is: StringBuffer
+ Domain T is: NA",fontcolor="blue"];
+  731 -> 734[label="append Type is: java.lang.StringBuffer"];
+734[label="Node is: append
+ Primary T is: java.lang.StringBuffer
+ Domain T is: NA",fontcolor="blue"];
+  731 -> 735[label="Integer.toString((byteData[i] & 0xFF) + 256, 16).substring(1) Type is: java.lang.String"];
+735[label="Node is: Integer.toString((byteData[i] & 0xFF) + 256, 16).substring(1)
+ Primary T is: java.lang.String
+ Domain T is: NA",fontcolor="blue"];
+  735 -> 736[label="Integer.toString((byteData[i] & 0xFF) + 256, 16) Type is: java.lang.String"];
+736[label="Node is: Integer.toString((byteData[i] & 0xFF) + 256, 16)
+ Primary T is: java.lang.String
+ Domain T is: NA",fontcolor="blue"];
+  736 -> 737[label="Integer Type is: NotSpecified"];
+737[label="Node is: Integer
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  737 -> 738[label="Integer Type is: NotSpecified"];
+738[label="Node is: Integer
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  736 -> 739[label="toString Type is: NotSpecified"];
+739[label="Node is: toString
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  736 -> 740[label="(byteData[i] & 0xFF) + 256 Type is: int"];
+740[label="Node is: (byteData[i] & 0xFF) + 256
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  740 -> 741[label="(byteData[i] & 0xFF) Type is: byte"];
+741[label="Node is: (byteData[i] & 0xFF)
+ Primary T is: byte
+ Domain T is: NA",fontcolor="blue"];
+  741 -> 742[label="byteData[i] & 0xFF Type is: byte"];
+742[label="Node is: byteData[i] & 0xFF
+ Primary T is: byte
+ Domain T is: NA",fontcolor="blue"];
+  742 -> 743[label="byteData[i] Type is: byte"];
+743[label="Node is: byteData[i]
+ Primary T is: byte
+ Domain T is: NA",fontcolor="blue"];
+  743 -> 744[label="byteData Type is: byte[]"];
+744[label="Node is: byteData
+ Primary T is: byte[]
+ Domain T is: hash(msg,md5)",fontcolor="blue"];
+  743 -> 746[label="i Type is: int"];
+746[label="Node is: i
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  742 -> 748[label="0xFF Type is: int"];
+748[label="Node is: 0xFF
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  740 -> 749[label="256 Type is: int"];
+749[label="Node is: 256
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  736 -> 750[label="16 Type is: int"];
+750[label="Node is: 16
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  735 -> 751[label="substring Type is: java.lang.String"];
+751[label="Node is: substring
+ Primary T is: java.lang.String
+ Domain T is: NA",fontcolor="blue"];
+  735 -> 752[label="1 Type is: int"];
+752[label="Node is: 1
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  673 -> null[label="return sb.toString(); Type is: NotSpecified"];
+null[label="Node is: return sb.toString();
+ Primary T is: NotSpecified
+ Domain T is: ",fontcolor="blue"];
+  null -> 754[label="sb.toString() Type is: java.lang.String"];
+754[label="Node is: sb.toString()
+ Primary T is: java.lang.String
+ Domain T is: NA",fontcolor="blue"];
+  754 -> 755[label="sb Type is: java.lang.StringBuffer"];
+755[label="Node is: sb
+ Primary T is: java.lang.StringBuffer
+ Domain T is: NA",fontcolor="blue"];
+  754 -> 757[label="toString Type is: java.lang.StringBuffer"];
+757[label="Node is: toString
+ Primary T is: java.lang.StringBuffer
+ Domain T is: NA",fontcolor="blue"];
+  }

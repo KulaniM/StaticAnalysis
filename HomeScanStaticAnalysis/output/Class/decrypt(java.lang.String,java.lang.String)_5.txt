@@ -1,0 +1,353 @@
+digraph "decrypt(java.lang.String,java.lang.String)" {
+ label="decrypt(java.lang.String,java.lang.String)"
+{
+ node [shape=box]} 
+434 -> 434[label="public static String decrypt(String strToDecrypt, String secret) {
+    try {
+        Cipher cipher = Cipher.getInstance(AES/ECB/PKCS5PADDING);
+        cipher.init(2, secretKey);
+        return new String(cipher.doFinal(java.util.Base64.getDecoder().decode(strToDecrypt)));
+    } catch (Exception e) {
+        System.out.println(Error while decrypting:  + e.toString());
+    }
+    return null;
+} Type is: java.lang.String"];
+434[label="Node is: public static String decrypt(String strToDecrypt, String secret) {
+    try {
+        Cipher cipher = Cipher.getInstance(AES/ECB/PKCS5PADDING);
+        cipher.init(2, secretKey);
+        return new String(cipher.doFinal(java.util.Base64.getDecoder().decode(strToDecrypt)));
+    } catch (Exception e) {
+        System.out.println(Error while decrypting:  + e.toString());
+    }
+    return null;
+}
+ Primary T is: java.lang.String
+ Domain T is: method",fontcolor="blue"];
+  434 -> 435[label="decrypt Type is: NotSpecified"];
+435[label="Node is: decrypt
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  434 -> 436[label="String strToDecrypt Type is: NotSpecified"];
+436[label="Node is: String strToDecrypt
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  436 -> 437[label="String Type is: NotSpecified"];
+437[label="Node is: String
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  470 -> 471[label="String Type is: NotSpecified"];
+471[label="Node is: String
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  436 -> 487[label="strToDecrypt Type is: java.lang.String"];
+487[label="Node is: strToDecrypt
+ Primary T is: java.lang.String
+ Domain T is: ciphertext(decoded)",fontcolor="blue"];
+  434 -> 440[label="String secret Type is: NotSpecified"];
+440[label="Node is: String secret
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  440 -> 441[label="String Type is: NotSpecified"];
+441[label="Node is: String
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  440 -> 443[label="secret Type is: String"];
+443[label="Node is: secret
+ Primary T is: String
+ Domain T is: NA",fontcolor="blue"];
+  434 -> 444[label="String Type is: NotSpecified"];
+444[label="Node is: String
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  434 -> 446[label="{
+    try {
+        Cipher cipher = Cipher.getInstance(AES/ECB/PKCS5PADDING);
+        cipher.init(2, secretKey);
+        return new String(cipher.doFinal(java.util.Base64.getDecoder().decode(strToDecrypt)));
+    } catch (Exception e) {
+        System.out.println(Error while decrypting:  + e.toString());
+    }
+    return null;
+} Type is: NotSpecified"];
+446[label="Node is: {
+    try {
+        Cipher cipher = Cipher.getInstance(AES/ECB/PKCS5PADDING);
+        cipher.init(2, secretKey);
+        return new String(cipher.doFinal(java.util.Base64.getDecoder().decode(strToDecrypt)));
+    } catch (Exception e) {
+        System.out.println(Error while decrypting:  + e.toString());
+    }
+    return null;
+}
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  446 -> 447[label="try {
+    Cipher cipher = Cipher.getInstance(AES/ECB/PKCS5PADDING);
+    cipher.init(2, secretKey);
+    return new String(cipher.doFinal(java.util.Base64.getDecoder().decode(strToDecrypt)));
+} catch (Exception e) {
+    System.out.println(Error while decrypting:  + e.toString());
+} Type is: NotSpecified"];
+447[label="Node is: try {
+    Cipher cipher = Cipher.getInstance(AES/ECB/PKCS5PADDING);
+    cipher.init(2, secretKey);
+    return new String(cipher.doFinal(java.util.Base64.getDecoder().decode(strToDecrypt)));
+} catch (Exception e) {
+    System.out.println(Error while decrypting:  + e.toString());
+}
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  447 -> 448[label="{
+    Cipher cipher = Cipher.getInstance(AES/ECB/PKCS5PADDING);
+    cipher.init(2, secretKey);
+    return new String(cipher.doFinal(java.util.Base64.getDecoder().decode(strToDecrypt)));
+} Type is: NotSpecified"];
+448[label="Node is: {
+    Cipher cipher = Cipher.getInstance(AES/ECB/PKCS5PADDING);
+    cipher.init(2, secretKey);
+    return new String(cipher.doFinal(java.util.Base64.getDecoder().decode(strToDecrypt)));
+}
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  448 -> 449[label="Cipher cipher = Cipher.getInstance(AES/ECB/PKCS5PADDING); Type is: NotSpecified"];
+449[label="Node is: Cipher cipher = Cipher.getInstance(AES/ECB/PKCS5PADDING);
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  449 -> 450[label="Cipher cipher = Cipher.getInstance(AES/ECB/PKCS5PADDING) Type is: javax.crypto.Cipher"];
+450[label="Node is: Cipher cipher = Cipher.getInstance(AES/ECB/PKCS5PADDING)
+ Primary T is: javax.crypto.Cipher
+ Domain T is: NA",fontcolor="blue"];
+  450 -> 451[label="cipher = Cipher.getInstance(AES/ECB/PKCS5PADDING) Type is: NotSpecified"];
+451[label="Node is: cipher = Cipher.getInstance(AES/ECB/PKCS5PADDING)
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  451 -> 452[label="Cipher Type is: NotSpecified"];
+452[label="Node is: Cipher
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  452 -> 453[label="Cipher Type is: NotSpecified"];
+453[label="Node is: Cipher
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  451 -> 454[label="cipher Type is: Cipher"];
+454[label="Node is: cipher
+ Primary T is: Cipher
+ Domain T is: NA",fontcolor="blue"];
+  451 -> 455[label="Cipher.getInstance(AES/ECB/PKCS5PADDING) Type is: javax.crypto.Cipher"];
+455[label="Node is: Cipher.getInstance(AES/ECB/PKCS5PADDING)
+ Primary T is: javax.crypto.Cipher
+ Domain T is: symmetric",fontcolor="blue"];
+  455 -> 456[label="Cipher Type is: NotSpecified"];
+456[label="Node is: Cipher
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  456 -> 457[label="Cipher Type is: NotSpecified"];
+457[label="Node is: Cipher
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  455 -> 458[label="getInstance Type is: NotSpecified"];
+458[label="Node is: getInstance
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  455 -> 459[label="AES/ECB/PKCS5PADDING Type is: java.lang.String"];
+459[label="Node is: AES/ECB/PKCS5PADDING
+ Primary T is: java.lang.String
+ Domain T is: NA",fontcolor="blue"];
+  448 -> 460[label="cipher.init(2, secretKey); Type is: NotSpecified"];
+460[label="Node is: cipher.init(2, secretKey);
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  460 -> 461[label="cipher.init(2, secretKey) Type is: NotSpecified"];
+461[label="Node is: cipher.init(2, secretKey)
+ Primary T is: NotSpecified
+ Domain T is: decryption",fontcolor="blue"];
+  461 -> 473[label="cipher Type is: javax.crypto.Cipher"];
+473[label="Node is: cipher
+ Primary T is: javax.crypto.Cipher
+ Domain T is: symmetric",fontcolor="blue"];
+  473 -> 474[label="cipher Type is: Cipher"];
+474[label="Node is: cipher
+ Primary T is: Cipher
+ Domain T is: NA",fontcolor="blue"];
+  461 -> 464[label="init Type is: javax.crypto.Cipher"];
+464[label="Node is: init
+ Primary T is: javax.crypto.Cipher
+ Domain T is: NA",fontcolor="blue"];
+  461 -> 465[label="2 Type is: int"];
+465[label="Node is: 2
+ Primary T is: int
+ Domain T is: NA",fontcolor="blue"];
+  461 -> 466[label="secretKey Type is: javax.crypto.spec.SecretKeySpec"];
+466[label="Node is: secretKey
+ Primary T is: javax.crypto.spec.SecretKeySpec
+ Domain T is: NA",fontcolor="blue"];
+  466 -> 467[label="secretKey Type is: String"];
+467[label="Node is: secretKey
+ Primary T is: String
+ Domain T is: NA",fontcolor="blue"];
+  448 -> null[label="return new String(cipher.doFinal(java.util.Base64.getDecoder().decode(strToDecrypt))); Type is: NotSpecified"];
+null[label="Node is: return new String(cipher.doFinal(java.util.Base64.getDecoder().decode(strToDecrypt)));
+ Primary T is: NotSpecified
+ Domain T is: plaintext",fontcolor="blue"];
+  null -> 469[label="new String(cipher.doFinal(java.util.Base64.getDecoder().decode(strToDecrypt))) Type is: java.lang.String"];
+469[label="Node is: new String(cipher.doFinal(java.util.Base64.getDecoder().decode(strToDecrypt)))
+ Primary T is: java.lang.String
+ Domain T is: NA",fontcolor="blue"];
+  469 -> 470[label="String Type is: NotSpecified"];
+470[label="Node is: String
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  469 -> 472[label="cipher.doFinal(java.util.Base64.getDecoder().decode(strToDecrypt)) Type is: byte[]"];
+472[label="Node is: cipher.doFinal(java.util.Base64.getDecoder().decode(strToDecrypt))
+ Primary T is: byte[]
+ Domain T is: plaintext",fontcolor="blue"];
+  472 -> 473[label="cipher Type is: javax.crypto.Cipher"];
+473[label="Node is: cipher
+ Primary T is: javax.crypto.Cipher
+ Domain T is: symmetric",fontcolor="blue"];
+  472 -> 475[label="doFinal Type is: javax.crypto.Cipher"];
+475[label="Node is: doFinal
+ Primary T is: javax.crypto.Cipher
+ Domain T is: NA",fontcolor="blue"];
+  472 -> 476[label="java.util.Base64.getDecoder().decode(strToDecrypt) Type is: byte[]"];
+476[label="Node is: java.util.Base64.getDecoder().decode(strToDecrypt)
+ Primary T is: byte[]
+ Domain T is: ciphertext",fontcolor="blue"];
+  476 -> 477[label="java.util.Base64.getDecoder() Type is: java.util.Base64.Decoder"];
+477[label="Node is: java.util.Base64.getDecoder()
+ Primary T is: java.util.Base64.Decoder
+ Domain T is: NA",fontcolor="blue"];
+  477 -> 478[label="java.util.Base64 Type is: java.util.Base64"];
+478[label="Node is: java.util.Base64
+ Primary T is: java.util.Base64
+ Domain T is: NA",fontcolor="blue"];
+  478 -> 479[label="java.util Type is: NotSpecified"];
+479[label="Node is: java.util
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  479 -> 480[label="java Type is: NotSpecified"];
+480[label="Node is: java
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  480 -> 481[label="java Type is: NotSpecified"];
+481[label="Node is: java
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  479 -> 482[label="util Type is: NotSpecified"];
+482[label="Node is: util
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  478 -> 483[label="Base64 Type is: NotSpecified"];
+483[label="Node is: Base64
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  477 -> 484[label="getDecoder Type is: java.util.Base64"];
+484[label="Node is: getDecoder
+ Primary T is: java.util.Base64
+ Domain T is: NA",fontcolor="blue"];
+  476 -> 485[label="decode Type is: java.util.Base64.Decoder"];
+485[label="Node is: decode
+ Primary T is: java.util.Base64.Decoder
+ Domain T is: NA",fontcolor="blue"];
+  476 -> 487[label="strToDecrypt Type is: java.lang.String"];
+487[label="Node is: strToDecrypt
+ Primary T is: java.lang.String
+ Domain T is: ciphertext(decoded)",fontcolor="blue"];
+  487 -> 487[label="strToDecrypt Type is: java.lang.String"];
+487[label="Node is: strToDecrypt
+ Primary T is: java.lang.String
+ Domain T is: ciphertext(decoded)",fontcolor="blue"];
+  447 -> 488[label=" catch (Exception e) {
+    System.out.println(Error while decrypting:  + e.toString());
+} Type is: NotSpecified"];
+488[label="Node is:  catch (Exception e) {
+    System.out.println(Error while decrypting:  + e.toString());
+}
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  488 -> 489[label="Exception e Type is: NotSpecified"];
+489[label="Node is: Exception e
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  489 -> 490[label="Exception Type is: NotSpecified"];
+490[label="Node is: Exception
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  490 -> 491[label="Exception Type is: NotSpecified"];
+491[label="Node is: Exception
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  489 -> 492[label="e Type is: NotSpecified"];
+492[label="Node is: e
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  488 -> 493[label="{
+    System.out.println(Error while decrypting:  + e.toString());
+} Type is: NotSpecified"];
+493[label="Node is: {
+    System.out.println(Error while decrypting:  + e.toString());
+}
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  493 -> 494[label="System.out.println(Error while decrypting:  + e.toString()); Type is: NotSpecified"];
+494[label="Node is: System.out.println(Error while decrypting:  + e.toString());
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  494 -> 495[label="System.out.println(Error while decrypting:  + e.toString()) Type is: void"];
+495[label="Node is: System.out.println(Error while decrypting:  + e.toString())
+ Primary T is: void
+ Domain T is: NA",fontcolor="blue"];
+  495 -> 496[label="System.out Type is: java.io.PrintStream"];
+496[label="Node is: System.out
+ Primary T is: java.io.PrintStream
+ Domain T is: NA",fontcolor="blue"];
+  496 -> 497[label="System Type is: NotSpecified"];
+497[label="Node is: System
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  497 -> 498[label="System Type is: NotSpecified"];
+498[label="Node is: System
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  496 -> 499[label="out Type is: NotSpecified"];
+499[label="Node is: out
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  495 -> 500[label="println Type is: java.io.PrintStream"];
+500[label="Node is: println
+ Primary T is: java.io.PrintStream
+ Domain T is: NA",fontcolor="blue"];
+  495 -> 501[label="Error while decrypting:  + e.toString() Type is: java.lang.String"];
+501[label="Node is: Error while decrypting:  + e.toString()
+ Primary T is: java.lang.String
+ Domain T is: NA",fontcolor="blue"];
+  501 -> 502[label="Error while decrypting:  Type is: java.lang.String"];
+502[label="Node is: Error while decrypting: 
+ Primary T is: java.lang.String
+ Domain T is: NA",fontcolor="blue"];
+  501 -> 503[label="e.toString() Type is: java.lang.String"];
+503[label="Node is: e.toString()
+ Primary T is: java.lang.String
+ Domain T is: NA",fontcolor="blue"];
+  503 -> 504[label="e Type is: java.lang.Exception"];
+504[label="Node is: e
+ Primary T is: java.lang.Exception
+ Domain T is: NA",fontcolor="blue"];
+  504 -> 505[label="e Type is: NotSpecified"];
+505[label="Node is: e
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  503 -> 506[label="toString Type is: java.lang.Exception"];
+506[label="Node is: toString
+ Primary T is: java.lang.Exception
+ Domain T is: NA",fontcolor="blue"];
+  446 -> 507[label="return null; Type is: NotSpecified"];
+507[label="Node is: return null;
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  507 -> 508[label="null Type is: null"];
+508[label="Node is: null
+ Primary T is: null
+ Domain T is: NA",fontcolor="blue"];
+  }

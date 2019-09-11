@@ -1,0 +1,45 @@
+digraph "g()" {
+ label="g()"
+{
+ node [shape=box]} 
+438 -> 438[label="public final boolean g() {
+    return this.l;
+} Type is: boolean"];
+438[label="Node is: public final boolean g() {
+    return this.l;
+}
+ Primary T is: boolean
+ Domain T is: method",fontcolor="blue"];
+  438 -> 439[label="g Type is: String"];
+439[label="Node is: g
+ Primary T is: String
+ Domain T is: NA",fontcolor="blue"];
+  438 -> 440[label="boolean Type is: String"];
+440[label="Node is: boolean
+ Primary T is: String
+ Domain T is: NA",fontcolor="blue"];
+  438 -> 441[label="{
+    return this.l;
+} Type is: String"];
+441[label="Node is: {
+    return this.l;
+}
+ Primary T is: String
+ Domain T is: NA",fontcolor="blue"];
+  441 -> null[label="return this.l; Type is: NotSpecified"];
+null[label="Node is: return this.l;
+ Primary T is: NotSpecified
+ Domain T is: ",fontcolor="blue"];
+  null -> 443[label="this.l Type is: NotSpecified"];
+443[label="Node is: this.l
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  443 -> 444[label="this Type is: NotSpecified"];
+444[label="Node is: this
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  443 -> 445[label="l Type is: boolean"];
+445[label="Node is: l
+ Primary T is: boolean
+ Domain T is: NA",fontcolor="blue"];
+  }

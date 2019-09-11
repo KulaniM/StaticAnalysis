@@ -1,0 +1,45 @@
+digraph "k()" {
+ label="k()"
+{
+ node [shape=box]} 
+471 -> 471[label="public final boolean k() {
+    return this.k;
+} Type is: boolean"];
+471[label="Node is: public final boolean k() {
+    return this.k;
+}
+ Primary T is: boolean
+ Domain T is: method",fontcolor="blue"];
+  471 -> 472[label="k Type is: NotSpecified"];
+472[label="Node is: k
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  471 -> 473[label="boolean Type is: NotSpecified"];
+473[label="Node is: boolean
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  471 -> 474[label="{
+    return this.k;
+} Type is: NotSpecified"];
+474[label="Node is: {
+    return this.k;
+}
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  474 -> null[label="return this.k; Type is: NotSpecified"];
+null[label="Node is: return this.k;
+ Primary T is: NotSpecified
+ Domain T is: ",fontcolor="blue"];
+  null -> 476[label="this.k Type is: NotSpecified"];
+476[label="Node is: this.k
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  476 -> 477[label="this Type is: NotSpecified"];
+477[label="Node is: this
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  476 -> 478[label="k Type is: NotSpecified"];
+478[label="Node is: k
+ Primary T is: NotSpecified
+ Domain T is: NA",fontcolor="blue"];
+  }
