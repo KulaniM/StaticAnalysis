@@ -1,0 +1,36 @@
+#Internal package file, do not edit.
+#Thu Aug 08 16:06:28 SGT 2019
+2.base=/home/HomeScanSpecExtraction/Instrumentation/app/build/intermediates/assets/debug
+5.file=/home/HomeScanSpecExtraction/Instrumentation/app/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+5.set=ANDROID_RESOURCE
+3.base=/home/HomeScanSpecExtraction/Instrumentation/app/build/intermediates/res/resources-debug.ap_
+6.file=/home/HomeScanSpecExtraction/Instrumentation/app/build/intermediates/assets/debug/FiddlerRoot.cer
+2.set=ASSET
+10.set=ANDROID_RESOURCE
+10.file=/home/HomeScanSpecExtraction/Instrumentation/app/build/intermediates/res/resources-debug.ap_/res/mipmap-xxhdpi-v4/ic_launcher.png
+4.base=/home/HomeScanSpecExtraction/Instrumentation/app/build/intermediates/res/resources-debug.ap_
+7.file=/home/HomeScanSpecExtraction/Instrumentation/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+7.set=DEX
+count=11
+0.file=/home/HomeScanSpecExtraction/Instrumentation/app/build/intermediates/assets/debug/classes.txt
+5.base=/home/HomeScanSpecExtraction/Instrumentation/app/build/intermediates/res/resources-debug.ap_
+8.file=/home/HomeScanSpecExtraction/Instrumentation/app/build/intermediates/res/resources-debug.ap_/resources.arsc
+4.set=ANDROID_RESOURCE
+6.base=/home/HomeScanSpecExtraction/Instrumentation/app/build/intermediates/assets/debug
+1.file=/home/HomeScanSpecExtraction/Instrumentation/app/build/intermediates/res/resources-debug.ap_/res/mipmap-xxxhdpi-v4/ic_launcher.png
+9.set=ANDROID_RESOURCE
+9.file=/home/HomeScanSpecExtraction/Instrumentation/app/build/intermediates/res/resources-debug.ap_/res/mipmap-xhdpi-v4/ic_launcher.png
+10.base=/home/HomeScanSpecExtraction/Instrumentation/app/build/intermediates/res/resources-debug.ap_
+1.set=ANDROID_RESOURCE
+7.base=/home/HomeScanSpecExtraction/Instrumentation/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+2.file=/home/HomeScanSpecExtraction/Instrumentation/app/build/intermediates/assets/debug/xposed_init
+6.set=ASSET
+0.base=/home/HomeScanSpecExtraction/Instrumentation/app/build/intermediates/assets/debug
+8.base=/home/HomeScanSpecExtraction/Instrumentation/app/build/intermediates/res/resources-debug.ap_
+3.file=/home/HomeScanSpecExtraction/Instrumentation/app/build/intermediates/res/resources-debug.ap_/res/mipmap-hdpi-v4/ic_launcher.png
+3.set=ANDROID_RESOURCE
+1.base=/home/HomeScanSpecExtraction/Instrumentation/app/build/intermediates/res/resources-debug.ap_
+9.base=/home/HomeScanSpecExtraction/Instrumentation/app/build/intermediates/res/resources-debug.ap_
+4.file=/home/HomeScanSpecExtraction/Instrumentation/app/build/intermediates/res/resources-debug.ap_/res/mipmap-mdpi-v4/ic_launcher.png
+8.set=ANDROID_RESOURCE
+0.set=ASSET

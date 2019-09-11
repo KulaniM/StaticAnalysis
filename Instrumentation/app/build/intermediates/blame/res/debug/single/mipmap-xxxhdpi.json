@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/HomeScanSpecExtraction/Instrumentation/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/home/HomeScanSpecExtraction/Instrumentation/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/HomeScanSpecExtraction/Instrumentation/C:\\Research\\Research Dynamic\\HookAPI\\HookAPI\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "/home/HomeScanSpecExtraction/Instrumentation/C:\\Research\\Research Dynamic\\HookAPI\\HookAPI\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    }
+]
