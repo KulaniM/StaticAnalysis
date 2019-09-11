@@ -8,7 +8,7 @@ This project is based on following existing projects on GitHub.
 To use this static analyzer, download the project and set the following values at the 
 
 #### JAR_PATH
-This property requires to set to decompile the jar using JD-GUI.
+This property requires to decompile the jar using JD-GUI.
 JAR_PATH = <absoloute path to the jar>
 
 #### initClassPath
